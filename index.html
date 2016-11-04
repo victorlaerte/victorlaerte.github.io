@@ -40,7 +40,7 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getKey('title')}}</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
@@ -48,10 +48,12 @@
             <li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
                <a class="smoothscroll" href="#home">Home</a>
             </li>
-            <!--
+            
             <li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
                <a class="smoothscroll" href="#about" >About</a>
             </li>
+
+            <!--
 	         <li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
                <a class="smoothscroll" href="#resume" >Resume</a>
             </li>
@@ -62,20 +64,19 @@
                <a class="smoothscroll" href="#testimonials" >Testimonials</a></li>
             <li ng-class="currentSection=='contact' ? 'current' : ''" ng-click="currentSection='contact'">
                <a class="smoothscroll" href="#contact" >Contact</a></li>
-             -->
+            
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">I'm Victor Laerte Oliveira.</h1>
-            <!--
-            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about" >start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
-            -->
-            <h3>More comming soon.</h3>
+            <h1 class="responsive-headline">{{getKey('title')}}</h1>
+            
+            <h3>{{getKey('subtitle')}}</h3>
+
+            <h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
+            
             <hr />
             <ul class="social">
                <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
@@ -87,23 +88,21 @@
             </ul>
          </div>
       </div>
-<!--
+
       <p class="scrolldown">
          <a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
       </p>
--->
+
    </header> <!-- Header End -->
 
-
-   <!-- About Section
-   ================================================== 
+   <!-- About Section -->
    <section id="about">
 
       <div class="row">
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+            <img class="profile-pic"  src="images/profile2.png" alt="" />
 
          </div>
 
@@ -111,12 +110,10 @@
 
             <h2>About Me</h2>
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            <p>{{getKey('aboutMeEducation')}}
+            </p>
+
+            <p>{{getKey('aboutMeWork')}}
             </p>
 
             <div class="row">
@@ -125,25 +122,35 @@
 
                   <h2>Contact Details</h2>
                   <p class="address">
-						   <span>Jonathan Doe</span><br>
-						   <span>1600 Amphitheatre Parkway<br>
-						         Mountain View, CA 94043 US
-                     </span><br>
-						   <span>(123)456-7890</span><br>
-                     <span>anyone@website.com</span>
-					   </p>
+						        <span>{{getKey('name')}}</span><br>
+						        <span>{{getKey('address')}}</span><br>
+                    <span><a href="mailto:{{getKey('email')}}">
+                      {{getKey('email')}}
+                    </a></span>
+					         </p>
 
                </div>
 
                <div class="columns download">
-                  <p>
+                  <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                     <div id="SkypeButton_Call_victorlaerte_1">
+                      <script type="text/javascript">
+                      Skype.ui({
+                      "name": "dropdown",
+                      "element": "SkypeButton_Call_victorlaerte_1",
+                      "participants": ["victorlaerte"],
+                      "imageSize": 24
+                      });
+                      </script>
+                     </div>
+                  <!--<p>
                      <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
+                  </p> -->
                </div>
 
-            </div> <!-- end row 
+            </div>
 
-         </div> <!-- end .main-col 
+         </div>
 
       </div>
 
@@ -151,7 +158,6 @@
 
 
    <!-- Resume Section
-   ================================================== 
    <section id="resume">
 
       <!-- Education
@@ -836,6 +842,7 @@
    <script src="js/init.js"></script>
    <script src="js/angular.min.js"></script>
    <script src="js/ctrl.js"></script>
+   <script src="js/lang-service.js"></script>
 
 </body>
 

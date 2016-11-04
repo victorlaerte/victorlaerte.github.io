@@ -1,8 +1,18 @@
-var app = angular.module('ngResumeApp', []);
+(function(angular) {
 
-app.controller('ResumeAppController',
-    ['$scope', '$timeout', function($scope, $timeout) {
+    'use strict';
 
-    $scope.currentSection = 'home';
+	var app = angular.module('ngResumeApp', []);
 
-}]);
+	app.controller('ResumeAppController',
+	    ['$scope', '$timeout', 'langService', function($scope, $timeout, langService) {
+
+	    $scope.currentSection = 'home';
+
+	    $scope.getKey = function(key) {
+	    	
+	    	return langService.get(key);
+	    }
+	}]);
+
+})(window.angular);
