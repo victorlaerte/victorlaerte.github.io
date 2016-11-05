@@ -53,10 +53,11 @@
                <a class="smoothscroll" href="#about" >About</a>
             </li>
 
-            <!--
 	         <li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
                <a class="smoothscroll" href="#resume" >Resume</a>
             </li>
+
+            <!--
             <li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
                <a class="smoothscroll" href="#portfolio" >Works</a>
             </li>
@@ -79,12 +80,12 @@
             
             <hr />
             <ul class="social">
-               <li><a href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
-               <li><a href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
+               <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
+               <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+               <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
+               <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
+               <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
+               <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
             </ul>
          </div>
       </div>
@@ -127,25 +128,25 @@
                     <span><a href="mailto:{{getKey('email')}}">
                       {{getKey('email')}}
                     </a></span>
+                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                       <div id="SkypeButton_Call_victorlaerte_1">
+                        <script type="text/javascript">
+                        Skype.ui({
+                        "name": "dropdown",
+                        "element": "SkypeButton_Call_victorlaerte_1",
+                        "participants": ["victorlaerte"],
+                        "imageSize": 24
+                        });
+                      </script>
+                     </div>
 					         </p>
 
                </div>
 
                <div class="columns download">
-                  <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                     <div id="SkypeButton_Call_victorlaerte_1">
-                      <script type="text/javascript">
-                      Skype.ui({
-                      "name": "dropdown",
-                      "element": "SkypeButton_Call_victorlaerte_1",
-                      "participants": ["victorlaerte"],
-                      "imageSize": 24
-                      });
-                      </script>
-                     </div>
-                  <!--<p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p> -->
+                    
+                     <a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
                </div>
 
             </div>
@@ -157,62 +158,11 @@
    </section> <!-- About Section End-->
 
 
-   <!-- Resume Section
+   <!-- Resume Section -->
    <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- 
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of Life</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end 
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end 
-
-         </div> <!-- main-col end 
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- 
+      <!-- Work -->
+      
       <div class="row work">
 
          <div class="three columns header-col">
@@ -221,49 +171,55 @@
 
          <div class="nine columns main-col">
 
-            <div class="row item">
+            <ng-resume-row item="getKey('facilit')"></ng-resume-row>
 
-               <div class="twelve columns">
-
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end 
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end 
-
-         </div> <!-- main-col end 
+         </div> <!-- main-col end -->
 
       </div> <!-- End Work -->
 
+      <!-- Education -->
+      
+      <div class="row education">
 
-      <!-- Skills
-      ----------------------------------------------- 
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <ng-resume-row item="getKey('ufpe')"></ng-resume-row>
+            
+            <ng-resume-row item="getKey('upe')"></ng-resume-row>
+
+            <strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
+
+            <p></p>
+            <ng-resume-row item="getKey('senai')"></ng-resume-row>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Courses -->
+      
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Courses</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <ng-resume-row item="getKey('umc')"></ng-resume-row>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Courses -->
+
+
+      <!-- Skills -->
+
       <div class="row skill">
 
          <div class="three columns header-col">
@@ -272,28 +228,29 @@
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            <p>{{getKey('skills_plp')}}
             </p>
 
+            <p>{{getKey('skills_experience')}}
+            </p>
+
+<!--
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+					  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+            <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
 						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
 						<li><span class="bar-expand css"></span><em>CSS</em></li>
 						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+            <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
 					</ul>
 
-				</div><!-- end skill-bars 
+				</div><!-- end skill-bars -->
 
-			</div> <!-- main-col end 
+			</div> <!-- main-col end -->
 
-      </div> <!-- End skills 
+      </div> <!-- End skills -->
 
    </section> <!-- Resume Section End-->
 
