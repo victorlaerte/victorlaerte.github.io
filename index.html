@@ -40,7 +40,7 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getKey('title')}}</a>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getData('title')}}</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
@@ -72,9 +72,9 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">{{getKey('title')}}</h1>
+            <h1 class="responsive-headline">{{getData('title')}}</h1>
             
-            <h3>{{getKey('subtitle')}}</h3>
+            <h3>{{getData('subtitle')}}</h3>
 
             <h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
             
@@ -111,10 +111,10 @@
 
             <h2>About Me</h2>
 
-            <p>{{getKey('aboutMeEducation')}}
+            <p>{{getData('aboutMeEducation')}}
             </p>
 
-            <p>{{getKey('aboutMeWork')}}
+            <p>{{getData('aboutMeWork')}}
             </p>
 
             <div class="row">
@@ -123,10 +123,10 @@
 
                   <h2>Contact Details</h2>
                   <p class="address">
-						        <span>{{getKey('name')}}</span><br>
-						        <span>{{getKey('address')}}</span><br>
-                    <span><a href="mailto:{{getKey('email')}}">
-                      {{getKey('email')}}
+						        <span>{{getData('name')}}</span><br>
+						        <span>{{getData('address')}}</span><br>
+                    <span><a href="mailto:{{getData('email')}}">
+                      {{getData('email')}}
                     </a></span>
                     <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
                        <div id="SkypeButton_Call_victorlaerte_1">
@@ -171,7 +171,7 @@
 
          <div class="nine columns main-col">
 
-            <ng-resume-row item="getKey('facilit')"></ng-resume-row>
+            <ng-resume-row item="getData('facilit')"></ng-resume-row>
 
          </div> <!-- main-col end -->
 
@@ -187,14 +187,14 @@
 
          <div class="nine columns main-col">
 
-            <ng-resume-row item="getKey('ufpe')"></ng-resume-row>
+            <ng-resume-row item="getData('ufpe')"></ng-resume-row>
             
-            <ng-resume-row item="getKey('upe')"></ng-resume-row>
+            <ng-resume-row item="getData('upe')"></ng-resume-row>
 
             <strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
 
             <p></p>
-            <ng-resume-row item="getKey('senai')"></ng-resume-row>
+            <ng-resume-row item="getData('senai')"></ng-resume-row>
 
          </div> <!-- main-col end -->
 
@@ -211,11 +211,29 @@
 
          <div class="nine columns main-col">
 
-            <ng-resume-row item="getKey('umc')"></ng-resume-row>
+            <ng-resume-row item="getData('umc')"></ng-resume-row>
 
          </div> <!-- main-col end -->
 
       </div> <!-- End Courses -->
+
+      <!-- Certificates -->
+      
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Certificates</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <ng-resume-row item="getData('scrum_certificate')"></ng-resume-row>
+            <ng-resume-row item="getData('c_sharp_certificate')"></ng-resume-row>
+            <ng-resume-row item="getData('mcp_certificate')"></ng-resume-row>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Certificates -->
 
 
       <!-- Skills -->
@@ -228,22 +246,46 @@
 
          <div class="nine columns main-col">
 
-            <p>{{getKey('skills_plp')}}
-            </p>
+            <h5>{{getData('skills_plp')}}</h5>
+            <ol>
+              <li> <i class="fa fa-thumbs-up"></i> {{getData('skills_plp1')}}
+              </li>
+              <li> <i class="fa fa-smile-o"></i> {{getData('skills_plp2')}}
+              </li>
+              <li> <i class="fa fa-wrench"></i> {{getData('skills_plp3')}}
+              </li>
+            </ol>
 
-            <p>{{getKey('skills_experience')}}
-            </p>
+            <h5>{{getData('skills_experience')}}</h5>
+            <ol>
+              <li>{{getData('skills_experience1')}}
+              </li>
+              <li>{{getData('skills_experience2')}}
+              </li>
+              <li>{{getData('skills_experience3')}}
+              </li>
+              <li>{{getData('skills_experience4')}}
+              </li>
+              <li>{{getData('skills_experience5')}}
+              </li>
+              <li>{{getData('skills_experience6')}}
+              </li>
+            </ol>
 
-<!--
+
 				<div class="bars">
 
+           <h5>{{getData('skills_and_recommendations')}}</h5>
+
+           <p>{{getData('skills_section_description')}}</p>
+
+           <p><strong>{{getData('last_updated')}}</strong></p>
+
+           <p></p>
 				   <ul class="skills">
-					  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-            <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-            <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					  <li ng-repeat="skill in getData('linkedin_skills') | limitTo:15">
+              <span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{skill.skill}} - {{skill.votes}} votes</em>
+            </li>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -799,7 +841,7 @@
    <script src="js/init.js"></script>
    <script src="js/angular.min.js"></script>
    <script src="js/ctrl.js"></script>
-   <script src="js/lang-service.js"></script>
+   <script src="js/services.js"></script>
 
 </body>
 
