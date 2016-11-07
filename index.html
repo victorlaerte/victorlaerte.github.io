@@ -311,16 +311,16 @@
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-          	   <div class="columns portfolio-item" ng-repeat="portifolio in getData('portifolio')">
+          	   <div class="columns portfolio-item" ng-repeat="portfolio in getData('portfolio')">
 
                   <div class="item-wrap">
 
-                     <a href="#modalArea" ng-click="setPortifolio(portifolio)" title="{{portifolio.title}}">
-                        <img alt="" ng-src="{{portifolio.imgUrl}}">
+                     <a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{portfolio.title}}">
+                        <img alt="" ng-src="{{portfolio.imgUrl}}">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>{{portifolio.title}}</h5>
-                              <p>{{portifolio.description}}</p>
+          					      <h5>{{portfolio.title}}</h5>
+                              <p>{{portfolio.description}}</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -341,19 +341,19 @@
 
       <div id="modalArea" >
 
-        <div class="popup-modal" ng-class="{'mfp-hide': portifolio.closed}" ng-repeat="portifolio in getData('portifolio')">
+        <div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in getData('portfolio')">
 
-          <img class="scale-with-grid" ng-src="{{portifolio.modalImgUrl}}" alt="" />
+          <img class="scale-with-grid" ng-src="{{portfolio.modalImgUrl}}" alt="" />
 
           <div class="description-box">
-            <h4>{{portifolio.title}}</h4>
-            <p>{{portifolio.description}}</p>
-            <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portifolio.tags">{{tag.name}} </span></span>
+            <h4>{{portfolio.title}}</h4>
+            <p>{{portfolio.description}}</p>
+            <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{tag.name}} </span></span>
           </div>
 
             <div class="link-box">
-               <a href="{{portifolio.url}}" target="_blank">Details</a>
-             <a ng-click="portifolio.closed = !portifolio.closed" class="popup-modal-dismiss">Close</a>
+               <a href="{{portfolio.url}}" target="_blank">Details</a>
+               <a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
             </div>
 
         </div><!-- modal-01 End -->

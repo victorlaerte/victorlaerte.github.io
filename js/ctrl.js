@@ -8,7 +8,7 @@
 	    ['$scope', 'staticDataService', function($scope, staticDataService) {
 
 	    $scope.currentSection = 'home';
-	    $scope.currentPortifolio = undefined;
+	    $scope.currentPortfolio = undefined;
 
 	    $scope.getData = function(key) {
 	    	
@@ -24,15 +24,15 @@
 	    	return percent;
 	    };
 
-		$scope.setPortifolio = function(portifolio) {
+		$scope.setPortfolio = function(portfolio) {
 
-			if ($scope.currentPortifolio) {
-				$scope.currentPortifolio.closed = true;
+			if ($scope.currentPortfolio) {
+				$scope.currentPortfolio.closed = true;
 			}
 
-			portifolio.closed = !portifolio.closed;
+			portfolio.closed = !portfolio.closed;
 
-			$scope.currentPortifolio = portifolio;
+			$scope.currentPortfolio = portfolio;
 		};
 
 
