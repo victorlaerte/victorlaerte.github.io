@@ -8,6 +8,7 @@
 	    ['$scope', 'staticDataService', function($scope, staticDataService) {
 
 	    $scope.currentSection = 'home';
+	    $scope.currentPortifolio = undefined;
 
 	    $scope.getData = function(key) {
 	    	
@@ -22,6 +23,18 @@
 
 	    	return percent;
 	    };
+
+		$scope.setPortifolio = function(portifolio) {
+
+			if ($scope.currentPortifolio) {
+				$scope.currentPortifolio.closed = true;
+			}
+
+			portifolio.closed = !portifolio.closed;
+
+			$scope.currentPortifolio = portifolio;
+		};
+
 
 	}]);
 
