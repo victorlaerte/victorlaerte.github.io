@@ -21,7 +21,7 @@
 
 	    $scope.calculateWidth = function(num) {
 
-	    	var k = 29; //max number of votes, don't bother me it's a mvp :P
+	    	var k = $scope.skillMaxVote.votes;
 
 	    	var percent = (num/k)*100;
 
@@ -41,8 +41,11 @@
 
 		$scope.currentSection = 'home';
 	    $scope.currentPortfolio = undefined;
+	    $scope.portfolios = $scope.getData('portfolios');
 	    $scope.quote = $scope.getRandom('quotes');
 		$scope.testimonials =  $scope.getData('testimonials');
+		$scope.linkedinSkills = $scope.getData('linkedin_skills');
+		$scope.skillMaxVote = _.max($scope.linkedinSkills, function(skill){ return skill.votes; });
 	}]);
 
 	app.directive('ngResumeRow', ['staticDataService', function(staticDataService) {
