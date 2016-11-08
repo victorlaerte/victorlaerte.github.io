@@ -1,615 +1,463 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en" ng-app="ngResumeApp" ng-controller="ResumeAppController" class="ng-cloak" ng-cloak>
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Victor Laerte Olivera</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <title>{{getData('name')}}</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
 
    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+  ================================================== -->
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
 
    <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+   ================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
 
-</head>
+ </head>
 
-<body ng-app="ngResumeApp" ng-controller="ResumeAppController" class="ng-cloak" ng-cloak>
+ <body >
 
    <!-- Header
    ================================================== -->
    <header id="home">
 
-      <nav id="nav-wrap">
+    <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getData('title')}}</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+     <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getData('title')}}</a>
+     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" class="nav">
-            
-            <li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
-               <a class="smoothscroll" href="#home">Home</a>
-            </li>
-            
-            <li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
-               <a class="smoothscroll" href="#about" >About</a>
-            </li>
+     <ul id="nav" class="nav">
 
-	          <li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
-               <a class="smoothscroll" href="#resume" >Resume</a>
-            </li>
+       <li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
+         <a class="smoothscroll" href="#home">Home</a>
+       </li>
 
-            <li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
-               <a class="smoothscroll" href="#portfolio" >Works</a>
-            </li>
+       <li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
+         <a class="smoothscroll" href="#about" >About</a>
+       </li>
 
-            <!--
-            <li ng-class="currentSection=='testimonials' ? 'current' : ''" ng-click="currentSection='testimonials'">
-               <a class="smoothscroll" href="#testimonials" >Testimonials</a></li>
-            <li ng-class="currentSection=='contact' ? 'current' : ''" ng-click="currentSection='contact'">
-               <a class="smoothscroll" href="#contact" >Contact</a></li>
-            
-         </ul> <!-- end #nav -->
+       <li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
+         <a class="smoothscroll" href="#resume" >Resume</a>
+       </li>
 
-      </nav> <!-- end #nav-wrap -->
+       <li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
+         <a class="smoothscroll" href="#portfolio" >Works</a>
+       </li>
 
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">{{getData('title')}}</h1>
-            
-            <h3>{{getData('subtitle')}}</h3>
+       <li ng-class="currentSection=='testimonials' ? 'current' : ''" ng-click="currentSection='testimonials'">
+         <a class="smoothscroll" href="#testimonials" >Testimonials</a>
+       </li>
 
-            <h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
-            
-            <hr />
-            <ul class="social">
-               <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
-               <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
-               <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
-               <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
-               <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
-               <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
-            </ul>
-         </div>
-      </div>
+     </ul> <!-- end #nav -->
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
+   </nav> <!-- end #nav-wrap -->
+
+   <div class="row banner">
+     <div class="banner-text">
+      <h1 class="responsive-headline">{{getData('title')}}</h1>
+
+      <h3>{{getData('subtitle')}}</h3>
+
+      <h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
+
+      <hr />
+      <ul class="social">
+       <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
+       <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
+       <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
+       <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
+       <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
+       <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
+     </ul>
+   </div>
+ </div>
+
+ <p class="scrolldown">
+   <a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
+ </p>
+
+</header> <!-- Header End -->
+
+<!-- About Section -->
+<section id="about">
+
+  <div class="row">
+
+   <div class="three columns">
+
+    <img class="profile-pic"  src="images/profile.png" alt="" />
+
+  </div>
+
+  <div class="nine columns main-col">
+
+    <h2>About Me</h2>
+
+    <p>{{getData('aboutMeEducation')}}
+    </p>
+
+    <p>{{getData('aboutMeWork')}}
+    </p>
+
+    <div class="row">
+
+     <div class="columns contact-details">
+
+      <h2>Contact Details</h2>
+      <p class="address">
+        <span>{{getData('name')}}</span><br>
+        <span>{{getData('address')}}</span><br>
+        <span><a href="mailto:{{getData('email')}}">
+          {{getData('email')}}
+        </a></span>
+        <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+        <div id="SkypeButton_Call_victorlaerte_1">
+          <script type="text/javascript">
+          Skype.ui({
+            "name": "dropdown",
+            "element": "SkypeButton_Call_victorlaerte_1",
+            "participants": ["victorlaerte"],
+            "imageSize": 24
+          });
+          </script>
+        </div>
       </p>
 
-   </header> <!-- Header End -->
+    </div>
 
-   <!-- About Section -->
-   <section id="about">
+    <div class="columns download">
 
-      <div class="row">
+     <a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+   </p>
+ </div>
 
-         <div class="three columns">
+</div>
 
-            <img class="profile-pic"  src="images/profile2.png" alt="" />
+</div>
 
-         </div>
+</div>
 
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>{{getData('aboutMeEducation')}}
-            </p>
-
-            <p>{{getData('aboutMeWork')}}
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						        <span>{{getData('name')}}</span><br>
-						        <span>{{getData('address')}}</span><br>
-                    <span><a href="mailto:{{getData('email')}}">
-                      {{getData('email')}}
-                    </a></span>
-                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                       <div id="SkypeButton_Call_victorlaerte_1">
-                        <script type="text/javascript">
-                        Skype.ui({
-                        "name": "dropdown",
-                        "element": "SkypeButton_Call_victorlaerte_1",
-                        "participants": ["victorlaerte"],
-                        "imageSize": 24
-                        });
-                      </script>
-                     </div>
-					         </p>
-
-               </div>
-
-               <div class="columns download">
-                    
-                     <a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div>
-
-         </div>
-
-      </div>
-
-   </section> <!-- About Section End-->
-
+</section> <!-- About Section End-->
 
 <!-- Resume Section -->
-   <section id="resume">
+<section id="resume">
 
-      <!-- Work -->
-      
-      <div class="row work">
+  <!-- Work -->
 
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
+  <div class="row work">
+
+   <div class="three columns header-col">
+    <h1><span>Work</span></h1>
+  </div>
+
+  <div class="nine columns main-col">
+
+    <ng-resume-row item="getData('facilit')"></ng-resume-row>
+
+  </div> <!-- main-col end -->
+
+</div> <!-- End Work -->
+
+<!-- Education -->
+
+<div class="row education">
+
+ <div class="three columns header-col">
+  <h1><span>Education</span></h1>
+</div>
+
+<div class="nine columns main-col">
+
+  <ng-resume-row item="getData('ufpe')"></ng-resume-row>
+
+  <ng-resume-row item="getData('upe')"></ng-resume-row>
+
+  <strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
+
+  <p></p>
+  <ng-resume-row item="getData('senai')"></ng-resume-row>
+
+</div> <!-- main-col end -->
+
+</div> <!-- End Education -->
+
+
+<!-- Courses -->
+
+<div class="row education">
+
+ <div class="three columns header-col">
+  <h1><span>Courses</span></h1>
+</div>
+
+<div class="nine columns main-col">
+
+  <ng-resume-row item="getData('umc')"></ng-resume-row>
+
+</div> <!-- main-col end -->
+
+</div> <!-- End Courses -->
+
+<!-- Certificates -->
+
+<div class="row education">
+
+ <div class="three columns header-col">
+  <h1><span>Certificates</span></h1>
+</div>
+
+<div class="nine columns main-col">
+
+  <ng-resume-row item="getData('scrum_certificate')"></ng-resume-row>
+  <ng-resume-row item="getData('c_sharp_certificate')"></ng-resume-row>
+  <ng-resume-row item="getData('mcp_certificate')"></ng-resume-row>
+
+</div> <!-- main-col end -->
+
+</div> <!-- End Certificates -->
+
+<!-- Skills -->
+
+<div class="row skill">
+
+ <div class="three columns header-col">
+  <h1><span>Skills</span></h1>
+</div>
+
+<div class="nine columns main-col">
+
+  <h5>{{getData('skills_plp')}}</h5>
+  <ol>
+    <li> <i class="fa fa-thumbs-up"></i> {{getData('skills_plp1')}}
+    </li>
+    <li> <i class="fa fa-smile-o"></i> {{getData('skills_plp2')}}
+    </li>
+    <li> <i class="fa fa-wrench"></i> {{getData('skills_plp3')}}
+    </li>
+  </ol>
+
+  <h5>{{getData('skills_experience')}}</h5>
+
+  <ol>
+    <li ng-repeat="skill in getData('skills_experience_array')">
+      {{skill.text}}
+    </li>
+  </ol>
+
+  <div class="bars">
+
+   <h5>{{getData('skills_and_recommendations')}}</h5>
+
+   <p>{{getData('skills_section_description')}}</p>
+
+   <p><strong>{{getData('last_updated')}}</strong></p>
+
+   <p></p>
+   <ul class="skills">
+     <li ng-repeat="skill in getData('linkedin_skills') | limitTo:15">
+      <span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{skill.skill}} - {{skill.votes}} votes</em>
+    </li>
+  </ul>
+
+</div><!-- end skill-bars -->
+
+</div> <!-- main-col end -->
+
+</div> <!-- End skills -->
+
+</section> <!-- Resume Section End-->
+
+<!-- Portfolio Section -->
+
+<section id="portfolio">
+
+  <div class="row">
+
+   <div class="twelve columns collapsed">
+
+    <h1>Check Out Some of My Works.</h1>
+
+    <!-- portfolio-wrapper -->
+    <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+      <div class="columns portfolio-item" ng-repeat="portfolio in getData('portfolio')">
+
+        <div class="item-wrap">
+
+         <a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{portfolio.title}}">
+          <img alt="" ng-src="{{portfolio.imgUrl}}">
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+             <h5>{{portfolio.title}}</h5>
+             <p>{{portfolio.description}}</p>
+           </div>
          </div>
+         <div class="link-icon"><i class="icon-plus"></i></div>
+       </a>
 
-         <div class="nine columns main-col">
+     </div>
 
-            <ng-resume-row item="getData('facilit')"></ng-resume-row>
+   </div> <!-- item end -->
 
-         </div> <!-- main-col end -->
+ </div> <!-- portfolio-wrapper end -->
 
-      </div> <!-- End Work -->
+</div> <!-- twelve columns end -->
 
-      <!-- Education -->
-      
-      <div class="row education">
+</div> <!-- row End -->
 
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
+<!-- Modal Popup -->
 
-         <div class="nine columns main-col">
+<div id="modalArea" >
 
-            <ng-resume-row item="getData('ufpe')"></ng-resume-row>
-            
-            <ng-resume-row item="getData('upe')"></ng-resume-row>
+  <div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in getData('portfolio')">
 
-            <strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
+    <img class="scale-with-grid" ng-src="{{portfolio.modalImgUrl}}" alt="" />
 
-            <p></p>
-            <ng-resume-row item="getData('senai')"></ng-resume-row>
+    <div class="description-box">
+      <h4>{{portfolio.title}}</h4>
+      <p>{{portfolio.description}}</p>
+      <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{tag.name}} </span></span>
+    </div>
 
-         </div> <!-- main-col end -->
+    <div class="link-box">
+     <a href="{{portfolio.url}}" target="_blank">Details</a>
+     <a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
+   </div>
 
-      </div> <!-- End Education -->
+ </div><!-- modal End -->
+</div>
 
+</section> <!-- Portfolio Section End-->
 
-      <!-- Courses -->
-      
-      <div class="row education">
+<!-- Kick Ass Quote Section -->
 
-         <div class="three columns header-col">
-            <h1><span>Courses</span></h1>
-         </div>
+<section id="call-to-action">
 
-         <div class="nine columns main-col">
+  <div class="row">
 
-            <ng-resume-row item="getData('umc')"></ng-resume-row>
+   <div class="two columns header-col">
 
-         </div> <!-- main-col end -->
+    <h1><span class="fa fa-globe"></span></h1>
 
-      </div> <!-- End Courses -->
+  </div>
 
-      <!-- Certificates -->
-      
-      <div class="row education">
+  <div class="ten columns">
 
-         <div class="three columns header-col">
-            <h1><span>Certificates</span></h1>
-         </div>
+    <h2><span class="lead">{{quote.quote}}</span></h2>
+    <p class="info">{{quote.author}}</p>
 
-         <div class="nine columns main-col">
+  </div>
 
-            <ng-resume-row item="getData('scrum_certificate')"></ng-resume-row>
-            <ng-resume-row item="getData('c_sharp_certificate')"></ng-resume-row>
-            <ng-resume-row item="getData('mcp_certificate')"></ng-resume-row>
+  <div class="three columns action">
 
-         </div> <!-- main-col end -->
+  </div>
 
-      </div> <!-- End Certificates -->
+</div>
 
+</section> <!-- Kick Ass Quote Section Section End-->
 
-      <!-- Skills -->
+<!-- Testimonials Section -->
+<section id="testimonials">
 
-      <div class="row skill">
+  <div class="text-container">
 
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+   <div class="row">
 
-         <div class="nine columns main-col">
+    <div class="two columns header-col">
 
-            <h5>{{getData('skills_plp')}}</h5>
-            <ol>
-              <li> <i class="fa fa-thumbs-up"></i> {{getData('skills_plp1')}}
-              </li>
-              <li> <i class="fa fa-smile-o"></i> {{getData('skills_plp2')}}
-              </li>
-              <li> <i class="fa fa-wrench"></i> {{getData('skills_plp3')}}
-              </li>
-            </ol>
+     <h1><span>Client Testimonials</span></h1>
 
-            <h5>{{getData('skills_experience')}}</h5>
-            <ol>
-              <li>{{getData('skills_experience1')}}
-              </li>
-              <li>{{getData('skills_experience2')}}
-              </li>
-              <li>{{getData('skills_experience3')}}
-              </li>
-              <li>{{getData('skills_experience4')}}
-              </li>
-              <li>{{getData('skills_experience5')}}
-              </li>
-              <li>{{getData('skills_experience6')}}
-              </li>
-            </ol>
+   </div>
 
+   <div class="ten columns flex-container">
 
-				<div class="bars">
+     <div class="flexslider">
 
-           <h5>{{getData('skills_and_recommendations')}}</h5>
+      <flex-slider animation='slide' control-nav=true direction-nav=false
+      smooth-height=true slideshow-speed=30000 animation-speed=600 randomize=true slide="testimonial in testimonials">
 
-           <p>{{getData('skills_section_description')}}</p>
+      <li>
+        <blockquote>
+         <p>{{testimonial.testimonial}}
+         </p>
+         <cite>{{testimonial.author}}</cite>
+         <em>{{testimonial.info}}</em>
+       </blockquote>
+     </li>
+   </flex-slider>
 
-           <p><strong>{{getData('last_updated')}}</strong></p>
+ </div> <!-- div.flexslider ends -->
 
-           <p></p>
-				   <ul class="skills">
-					  <li ng-repeat="skill in getData('linkedin_skills') | limitTo:15">
-              <span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{skill.skill}} - {{skill.votes}} votes</em>
-            </li>
-					</ul>
+</div> <!-- div.flex-container ends -->
 
-				</div><!-- end skill-bars -->
+</div> <!-- row ends -->
 
-			</div> <!-- main-col end -->
+</div>  <!-- text-container ends -->
 
-      </div> <!-- End skills -->
+</section> <!-- Testimonials Section End-->
 
-   </section> <!-- Resume Section End-->
+<!-- footer -->
 
+<footer>
 
-   <!-- Portfolio Section -->
-   
-   <section id="portfolio">
+  <div class="row">
 
-      <div class="row">
+   <div class="twelve columns">
 
-         <div class="twelve columns collapsed">
+    <ul class="social-links">
+     <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
+     <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
+     <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
+     <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
+     <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
+     <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
+   </ul>
 
-            <h1>Check Out Some of My Works.</h1>
+   <ul class="copyright">
+     <li>&copy; Copyright 2014 CeeVee</li>
+     <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
+     <li>Improvements by <a href="https://github.com/victorlaerte/victorlaerte.github.io" title="Styleshout" target="_blank">Victor Laerte</a></li>   
+   </ul>
 
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+ </div>
 
-          	   <div class="columns portfolio-item" ng-repeat="portfolio in getData('portfolio')">
+ <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home" ><i class="icon-up-open"></i></a></div>
 
-                  <div class="item-wrap">
+</div>
 
-                     <a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{portfolio.title}}">
-                        <img alt="" ng-src="{{portfolio.imgUrl}}">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>{{portfolio.title}}</h5>
-                              <p>{{portfolio.description}}</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-
-          		</div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-      </div> <!-- row End -->
-
-
-         <!-- Modal Popup -->
-
-      <div id="modalArea" >
-
-        <div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in getData('portfolio')">
-
-          <img class="scale-with-grid" ng-src="{{portfolio.modalImgUrl}}" alt="" />
-
-          <div class="description-box">
-            <h4>{{portfolio.title}}</h4>
-            <p>{{portfolio.description}}</p>
-            <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{tag.name}} </span></span>
-          </div>
-
-            <div class="link-box">
-               <a href="{{portfolio.url}}" target="_blank">Details</a>
-               <a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-      </div>
-       
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Call-To-Action Section 
-   ================================================== 
-   <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
-         </div>
-
-         <div class="seven columns">
-
-            <h2><span class="lead">Unde Omnis Iste</span></h2>
-            <p><span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae. </span></p>
-
-         </div>
-
-         <div class="three columns action">
-
-
-
-         </div>
-
-      </div>
-
-   </section> <!-- Call-To-Action Section End-->
-
-
-   <!-- Testimonials Section
-   ================================================== 
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends 
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends 
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends 
-
-            </div> <!-- div.flex-container ends 
-
-         </div> <!-- row ends 
-
-       </div>  <!-- text-container ends 
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== 
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End 
-
-               <!-- contact-warning -
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer -->
-   
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
-               <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
-               <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
-               <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
-               <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
-               <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
-               <li>Improvements by <a href="https://github.com/victorlaerte/victorlaerte.github.io" title="Styleshout" target="_blank">me</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home" ><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
+</footer> <!-- Footer End-->
 
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
    <script src="js/jquery.flexslider.js"></script>
+   <script src="js/angular.min.js"></script>
+   <script src="js/angular-flexslider.js"></script>
+   <script src="js/ctrl.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
+   <!-- <script src="js/magnific-popup.js"></script> -->
    <script src="js/init.js"></script>
-   <script src="js/angular.min.js"></script>
-   <script src="js/ctrl.js"></script>
    <script src="js/services.js"></script>
+   <script src="js/underscore-min.js"></script>
 
-</body>
+ </body>
 
-</html>
+ </html>

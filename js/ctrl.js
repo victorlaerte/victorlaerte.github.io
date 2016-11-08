@@ -2,17 +2,21 @@
 
     'use strict';
 
-	var app = angular.module('ngResumeApp', []);
+	var app = angular.module('ngResumeApp', ['angular-flexslider']);
 
 	app.controller('ResumeAppController',
 	    ['$scope', 'staticDataService', function($scope, staticDataService) {
 
-	    $scope.currentSection = 'home';
-	    $scope.currentPortfolio = undefined;
-
 	    $scope.getData = function(key) {
 	    	
-	    	return staticDataService.get(key);
+	    	var data = staticDataService.get(key);
+	    	return data;
+	    };
+
+	    $scope.getRandom = function(key) {
+	    	
+	    	var data = staticDataService.getRandom(key);
+	    	return data;
 	    };
 
 	    $scope.calculateWidth = function(num) {
@@ -35,7 +39,10 @@
 			$scope.currentPortfolio = portfolio;
 		};
 
-
+		$scope.currentSection = 'home';
+	    $scope.currentPortfolio = undefined;
+	    $scope.quote = $scope.getRandom('quotes');
+		$scope.testimonials =  $scope.getData('testimonials');
 	}]);
 
 	app.directive('ngResumeRow', ['staticDataService', function(staticDataService) {
