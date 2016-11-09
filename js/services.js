@@ -88,7 +88,7 @@
           }
           ],
           skills_and_recommendations: "Skills and Recommendations",
-          skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show I little bit more about what I've done based in recomendations",
+          skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
           linkedin_skills: [
           {
               votes: 29,
