@@ -642,8 +642,33 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+/* ------------------------------------------------------------------ */
+/* g. Publications Section
+/* ------------------------------------------------------------------ */
+
+#publications {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#publications h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
+#publications h4 {
+   color: #7A7A7A;
+}
+#publications p {
+   line-height: 5px;
+   color: #7A7A7A;
+}
+
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* h. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
@@ -792,7 +817,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -929,7 +954,7 @@ call-to-action .button {
 
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
