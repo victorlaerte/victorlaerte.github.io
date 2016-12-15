@@ -45,6 +45,9 @@
 	    $scope.quote = $scope.getRandom('quotes');
 		$scope.testimonials =  $scope.getData('testimonials');
 		$scope.linkedinSkills = $scope.getData('linkedin_skills');
+		$scope.academicPubArray = $scope.getData('academicPubArray');
+		$scope.nonAcademicPubArray = $scope.getData('nonAcademicPubArray');
+
 		$scope.skillMaxVote = _.max($scope.linkedinSkills, function(skill){ return skill.votes; });
 	}]);
 

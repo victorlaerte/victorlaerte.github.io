@@ -122,6 +122,9 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+.top-gap {
+    padding-top: 80px;
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -1036,4 +1039,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-

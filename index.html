@@ -13,12 +13,12 @@
    ================================================== -->
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/media-queries.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
@@ -36,127 +36,127 @@
    ================================================== -->
    <header id="home">
 
-   	<nav id="nav-wrap">
+    <nav id="nav-wrap">
 
-   		<a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getData('title')}}</a>
-   		<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{::getData('title')}}</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-   		<ul id="nav" class="nav">
+      <ul id="nav" class="nav">
 
-   			<li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
-   				<a class="smoothscroll" href="#home">Home</a>
-   			</li>
+        <li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
+          <a class="smoothscroll" href="#home">Home</a>
+        </li>
 
-   			<li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
-   				<a class="smoothscroll" href="#about" >About</a>
-   			</li>
+        <li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
+          <a class="smoothscroll" href="#about" >About</a>
+        </li>
 
-   			<li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
-   				<a class="smoothscroll" href="#resume" >Resume</a>
-   			</li>
+        <li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
+          <a class="smoothscroll" href="#resume" >Resume</a>
+        </li>
 
-   			<li ng-class="currentSection=='skills' ? 'current' : ''" ng-click="currentSection='skills'">
-   				<a class="smoothscroll" href="#skills" >Skills</a>
-   			</li>
+        <li ng-class="currentSection=='skills' ? 'current' : ''" ng-click="currentSection='skills'">
+          <a class="smoothscroll" href="#skills" >Skills</a>
+        </li>
 
-   			<li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
-   				<a class="smoothscroll" href="#portfolio" >Works</a>
-   			</li>
+        <li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
+          <a class="smoothscroll" href="#portfolio" >Works</a>
+        </li>
 
             <li ng-class="currentSection=='publications' ? 'current' : ''" ng-click="currentSection='publications'">
                <a class="smoothscroll" href="#publications" >Publications</a>
             </li>
 
-   			<li ng-class="currentSection=='testimonials' ? 'current' : ''" ng-click="currentSection='testimonials'">
-   				<a class="smoothscroll" href="#testimonials" >Testimonials</a>
-   			</li>
+        <li ng-class="currentSection=='testimonials' ? 'current' : ''" ng-click="currentSection='testimonials'">
+          <a class="smoothscroll" href="#testimonials" >Testimonials</a>
+        </li>
 
-   		</ul> <!-- end #nav -->
+      </ul> <!-- end #nav -->
 
-   	</nav> <!-- end #nav-wrap -->
+    </nav> <!-- end #nav-wrap -->
 
-   	<div class="row banner">
-   		<div class="banner-text">
-   			<h1 class="responsive-headline">{{getData('title')}}</h1>
+    <div class="row banner">
+      <div class="banner-text">
+        <h1 class="responsive-headline">{{::getData('title')}}</h1>
 
-   			<h3>{{getData('subtitle')}}</h3>
+        <h3>{{::getData('subtitle')}}</h3>
 
-   			<h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
+        <h3>I'm a <span>software developer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment. Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
 
-   			<hr />
-   			<ul class="social">
-   				<li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
-   				<li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
-   				<li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
-   				<li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
-   				<li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
-   				<li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
-   			</ul>
-   		</div>
-   	</div>
+        <hr />
+        <ul class="social">
+          <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
+          <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
+        </ul>
+      </div>
+    </div>
 
-   	<p class="scrolldown">
-   		<a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
-   	</p>
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
+    </p>
 
    </header> <!-- Header End -->
 
    <!-- About Section -->
    <section id="about">
 
-   	<div class="row">
+    <div class="row">
 
-   		<div class="three columns">
+      <div class="three columns">
 
-   			<img class="profile-pic"  src="images/profile.png" alt="" />
+        <img class="profile-pic"  src="images/profile.png" alt="" />
 
-   		</div>
+      </div>
 
-   		<div class="nine columns main-col">
+      <div class="nine columns main-col">
 
-   			<h2>About Me</h2>
+        <h2>About Me</h2>
 
-   			<p>{{getData('aboutMeEducation')}}
-   			</p>
+        <p>{{::getData('aboutMeEducation')}}
+        </p>
 
-   			<p>{{getData('aboutMeWork')}}
-   			</p>
+        <p>{{::getData('aboutMeWork')}}
+        </p>
 
-   			<div class="row">
+        <div class="row">
 
-   				<div class="columns contact-details">
+          <div class="columns contact-details">
 
-   					<h2>Contact Details</h2>
-   					<p class="address">
-   						<span>{{getData('name')}}</span><br>
-   						<span>{{getData('address')}}</span><br>
-   						<span><a href="mailto:{{getData('email')}}">
-   							{{getData('email')}}
-   						</a></span>
-   						<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-   						<div id="SkypeButton_Call_victorlaerte_1">
-   							<script type="text/javascript">
-   							Skype.ui({
-   								"name": "dropdown",
-   								"element": "SkypeButton_Call_victorlaerte_1",
-   								"participants": ["victorlaerte"],
-   								"imageSize": 24
-   							});
-   							</script>
-   						</div>
-   					</p>
+            <h2>Contact Details</h2>
+            <p class="address">
+              <span>{{::getData('name')}}</span><br>
+              <span>{{::getData('address')}}</span><br>
+              <span><a href="mailto:{{::getData('email')}}">
+                {{::getData('email')}}
+              </a></span>
+              <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+              <div id="SkypeButton_Call_victorlaerte_1">
+                <script type="text/javascript">
+                Skype.ui({
+                  "name": "dropdown",
+                  "element": "SkypeButton_Call_victorlaerte_1",
+                  "participants": ["victorlaerte"],
+                  "imageSize": 24
+                });
+                </script>
+              </div>
+            </p>
 
-   				</div>
+          </div>
 
-   				<div class="columns download">
+          <div class="columns download">
 
-   					<a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-   				</p>
-   			</div>
+            <a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+          </p>
+        </div>
 
-   		</div>
+      </div>
 
-   	</div>
+    </div>
 
    </div>
 
@@ -165,130 +165,130 @@
  <!-- Resume Section -->
  <section id="resume">
 
- 	<!-- Work -->
+  <!-- Work -->
 
- 	<div class="row work">
+  <div class="row work">
 
- 		<div class="three columns header-col">
- 			<h1><span>Work</span></h1>
- 		</div>
+    <div class="three columns header-col">
+      <h1><span>Work</span></h1>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<ng-resume-row item="getData('facilit')"></ng-resume-row>
+      <ng-resume-row item="::getData('facilit')"></ng-resume-row>
 
- 		</div> <!-- main-col end -->
+    </div> <!-- main-col end -->
 
- 	</div> <!-- End Work -->
+  </div> <!-- End Work -->
 
- 	<!-- Education -->
+  <!-- Education -->
 
- 	<div class="row education">
+  <div class="row education">
 
- 		<div class="three columns header-col">
- 			<h1><span>Education</span></h1>
- 		</div>
+    <div class="three columns header-col">
+      <h1><span>Education</span></h1>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<ng-resume-row item="getData('ufpe')"></ng-resume-row>
+      <ng-resume-row item="::getData('ufpe')"></ng-resume-row>
 
- 			<ng-resume-row item="getData('upe')"></ng-resume-row>
+      <ng-resume-row item="::getData('upe')"></ng-resume-row>
 
- 			<strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
+      <strong> <a href="http://www.slideshare.net/victorlaerte/tv-digital-no-brasil-uma-metodologia-prtica-para-o-desenvolvimento-de-aplicaes-interativas-utilizando-gingancl" title="TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL" target="_blank">TV DIGITAL NO BRASIL: UMA METODOLOGIA PRÁTICA PARA O DESENVOLVIMENTO DE APLICAÇÕES INTERATIVAS UTILIZANDO GINGA-NCL</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/victorlaerte">Victor Laerte Oliveira</a></strong>
 
- 			<p></p>
- 			<ng-resume-row item="getData('senai')"></ng-resume-row>
+      <p></p>
+      <ng-resume-row item="::getData('senai')"></ng-resume-row>
 
- 		</div> <!-- main-col end -->
+    </div> <!-- main-col end -->
 
- 	</div> <!-- End Education -->
+  </div> <!-- End Education -->
 
 
- 	<!-- Courses -->
+  <!-- Courses -->
 
- 	<div class="row education">
+  <div class="row education">
 
- 		<div class="three columns header-col">
- 			<h1><span>Courses</span></h1>
- 		</div>
+    <div class="three columns header-col">
+      <h1><span>Courses</span></h1>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<ng-resume-row item="getData('umc')"></ng-resume-row>
+      <ng-resume-row item="::getData('umc')"></ng-resume-row>
 
- 		</div> <!-- main-col end -->
+    </div> <!-- main-col end -->
 
- 	</div> <!-- End Courses -->
+  </div> <!-- End Courses -->
 
- 	<!-- Certificates -->
+  <!-- Certificates -->
 
- 	<div class="row education">
+  <div class="row education">
 
- 		<div class="three columns header-col">
- 			<h1><span>Certificates</span></h1>
- 		</div>
+    <div class="three columns header-col">
+      <h1><span>Certificates</span></h1>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<ng-resume-row item="getData('scrum_certificate')"></ng-resume-row>
- 			<ng-resume-row item="getData('c_sharp_certificate')"></ng-resume-row>
- 			<ng-resume-row item="getData('mcp_certificate')"></ng-resume-row>
+      <ng-resume-row item="::getData('scrum_certificate')"></ng-resume-row>
+      <ng-resume-row item="::getData('c_sharp_certificate')"></ng-resume-row>
+      <ng-resume-row item="::getData('mcp_certificate')"></ng-resume-row>
 
- 			<div id="skills">
- 			</div>
- 		</div> <!-- main-col end -->
+      <div id="skills">
+      </div>
+    </div> <!-- main-col end -->
 
- 	</div> <!-- End Certificates -->
+  </div> <!-- End Certificates -->
 
- 	<!-- Skills -->
+  <!-- Skills -->
 
- 	<div class="row skill">
+  <div class="row skill">
 
- 		<div class="three columns header-col">
- 			<h1><span>Skills</span></h1>
- 		</div>
+    <div class="three columns header-col">
+      <h1><span>Skills</span></h1>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<h5>{{getData('skills_plp')}}</h5>
- 			<ol>
- 				<li> <i class="fa fa-thumbs-up"></i> {{getData('skills_plp1')}}
- 				</li>
- 				<li> <i class="fa fa-smile-o"></i> {{getData('skills_plp2')}}
- 				</li>
- 				<li> <i class="fa fa-wrench"></i> {{getData('skills_plp3')}}
- 				</li>
- 			</ol>
+      <h5>{{::getData('skills_plp')}}</h5>
+      <ol>
+        <li> <i class="fa fa-thumbs-up"></i> {{::getData('skills_plp1')}}
+        </li>
+        <li> <i class="fa fa-smile-o"></i> {{::getData('skills_plp2')}}
+        </li>
+        <li> <i class="fa fa-wrench"></i> {{::getData('skills_plp3')}}
+        </li>
+      </ol>
 
- 			<h5>{{getData('skills_experience')}}</h5>
+      <h5>{{::getData('skills_experience')}}</h5>
 
- 			<ol>
- 				<li ng-repeat="skill in getData('skills_experience_array')">
- 					{{skill.text}}
- 				</li>
- 			</ol>
+      <ol>
+        <li ng-repeat="skill in ::getData('skills_experience_array')">
+          {{::skill.text}}
+        </li>
+      </ol>
 
- 			<div class="bars">
+      <div class="bars">
 
- 				<h5>{{getData('skills_and_recommendations')}}</h5>
+        <h5>{{::getData('skills_and_recommendations')}}</h5>
 
- 				<p>{{getData('skills_section_description')}}</p>
+        <p>{{::getData('skills_section_description')}}</p>
 
- 				<p><strong>{{getData('last_updated')}}</strong></p>
+        <p><strong>{{::getData('last_updated')}}</strong></p>
 
- 				<p></p>
- 				<ul class="skills">
- 					<li ng-repeat="skill in linkedinSkills | limitTo:15">
- 						<span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{skill.skill}} - {{skill.votes}} votes</em>
- 					</li>
- 				</ul>
+        <p></p>
+        <ul class="skills">
+          <li ng-repeat="skill in linkedinSkills | limitTo:15">
+            <span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{::skill.skill}} - {{::skill.votes}} votes</em>
+          </li>
+        </ul>
 
- 			</div><!-- end skill-bars -->
+      </div><!-- end skill-bars -->
 
- 		</div> <!-- main-col end -->
+    </div> <!-- main-col end -->
 
- 	</div> <!-- End skills -->
+  </div> <!-- End skills -->
 
  </section> <!-- Resume Section End-->
 
@@ -296,61 +296,61 @@
 
  <section id="portfolio">
 
- 	<div class="row">
+  <div class="row">
 
- 		<div class="twelve columns collapsed">
+    <div class="twelve columns collapsed">
 
- 			<h1>Check Out Some of My Works.</h1>
+      <h1>Check Out Some of My Works.</h1>
 
- 			<!-- portfolio-wrapper -->
- 			<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+      <!-- portfolio-wrapper -->
+      <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
- 				<div class="columns portfolio-item" ng-repeat="portfolio in portfolios">
+        <div class="columns portfolio-item" ng-repeat="portfolio in portfolios">
 
- 					<div class="item-wrap">
+          <div class="item-wrap">
 
- 						<a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{portfolio.title}}">
- 							<img alt="" ng-src="{{portfolio.imgUrl}}">
- 							<div class="overlay">
- 								<div class="portfolio-item-meta">
- 									<h5>{{portfolio.title}}</h5>
- 									<p>{{portfolio.description}}</p>
- 								</div>
- 							</div>
- 							<div class="link-icon"><i class="icon-plus"></i></div>
- 						</a>
+            <a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{::portfolio.title}}">
+              <img alt="" ng-src="{{::portfolio.imgUrl}}">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5>{{::portfolio.title}}</h5>
+                  <p>{{::portfolio.description}}</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
 
- 					</div>
+          </div>
 
- 				</div> <!-- item end -->
+        </div> <!-- item end -->
 
- 			</div> <!-- portfolio-wrapper end -->
+      </div> <!-- portfolio-wrapper end -->
 
- 		</div> <!-- twelve columns end -->
+    </div> <!-- twelve columns end -->
 
- 	</div> <!-- row End -->
+  </div> <!-- row End -->
 
- 	<!-- Modal Popup -->
+  <!-- Modal Popup -->
 
- 	<div id="modalArea" >
+  <div id="modalArea" class="top-gap">
 
- 		<div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in portfolios">
+    <div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in portfolios">
 
- 			<img class="scale-with-grid" ng-src="{{portfolio.modalImgUrl}}" alt="" />
+      <img class="scale-with-grid" ng-src="{{::portfolio.modalImgUrl}}" alt="" />
 
- 			<div class="description-box">
- 				<h4>{{portfolio.title}}</h4>
- 				<p>{{portfolio.description}}</p>
- 				<span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{tag.name}} </span></span>
- 			</div>
+      <div class="description-box">
+        <h4>{{::portfolio.title}}</h4>
+        <p>{{::portfolio.description}}</p>
+        <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{::tag.name}} </span></span>
+      </div>
 
- 			<div class="link-box">
- 				<a href="{{portfolio.url}}" target="_blank">Details</a>
- 				<a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
- 			</div>
+      <div class="link-box">
+        <a href="{{::portfolio.url}}" target="_blank">Details</a>
+        <a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
+      </div>
 
- 		</div><!-- modal End -->
- 	</div>
+    </div><!-- modal End -->
+  </div>
 
  </section> <!-- Portfolio Section End-->
 
@@ -358,65 +358,70 @@
 
  <section id="call-to-action">
 
- 	<div class="row">
+  <div class="row">
 
- 		<div class="two columns header-col">
+    <div class="two columns header-col">
 
- 			<h1><span class="fa fa-globe"></span></h1>
+      <h1><span class="fa fa-globe"></span></h1>
 
- 		</div>
+    </div>
 
- 		<div class="ten columns">
+    <div class="ten columns">
 
- 			<h2><span class="lead">{{quote.quote}}</span></h2>
- 			<p class="info">{{quote.author}}</p>
+      <h2><span class="lead">{{::quote.quote}}</span></h2>
+      <p class="info">{{::quote.author}}</p>
 
- 		</div>
+    </div>
 
- 		<div class="three columns action">
+    <div class="three columns action">
 
- 		</div>
+    </div>
 
- 	</div>
+  </div>
 
  </section> <!-- Kick Ass Quote Section Section End-->
 
  <!-- About Section -->
  <section id="publications">
 
- 	<div class="row">
+  <div class="row">
 
- 		<div class="three columns">
+    <div class="three columns">
 
- 			<h2><span class="fa fa-book"></span> Publications</h2>
+      <h2><span class="fa fa-book"></span> Publications</h2>
 
- 		</div>
+    </div>
 
- 		<div class="nine columns main-col">
+    <div class="nine columns main-col">
 
- 			<h2>Academic</h2>
+      <h2>Academic</h2>
 
-         <h4>Bachelor's Thesis 
-         </h4>
+        <div ng-repeat="academicPub in academicPubArray">
+           <h4>{{::academicPub.category}}</h4>
 
-         <span><a target="_blank" href="doc/tcc.pdf">(pt-BR) TV Digital no Brasil: Uma Metodologia Prática para o Desenvolvimento de Aplicações Interativas Utilizando Ginga-NCL</a> - 2011 at Universidade de Pernambuco</span>
+           <ul>
+            <li ng-repeat="pub in academicPub.items">
+               <span><a target="_blank" href="{{::pub.link}}">({{::pub.language}}) {{::pub.title}}</a> - {{::pub.yearAndLocation}}</span>
+            </li>
+           </ul>
+          
+        <div>
+         
+        <hr>
 
-         <hr>
+      <h2>Non-Academic</h2>
 
-			<h2>Non-Academic</h2>
-
- 			<h4>Blog's most viewed posts
- 			</h4>
- 			
+      <div ng-repeat="nonAcademicPub in nonAcademicPubArray">
+        <h4>{{::nonAcademicPub.category}}</h4>
+      
          <ul>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/javafx-asynctask.html">(pt-BR) JavaFX AsyncTask: Um jeito fácil de manusear threads com JavaFX</a> - 2014</span></li>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/android-ios-como-detectar-e-corrigir.html">(pt-BR) Android, IOS: como detectar e corrigir crashes do meu aplicativo? Crashlytics</a> - 2014<span></li>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/android-como-fazer-para-as-imagens-de.html">(pt-BR) Android: Como fazer para as imagens de sua aplicação não serem exibidas na galeria?</a> - 2014</span></li>
+            <li ng-repeat="pub in nonAcademicPub.items"><span><a target="_blank" href="{{::pub.link}}">({{::pub.language}}) {{::pub.title}}</a> - {{::pub.yearAndLocation}}</span></li>
          </ul>
+      </div>
 
- 		</div>
+    </div>
 
- 	</div>
+  </div>
 
  </div>
 
@@ -425,38 +430,38 @@
 <!-- Testimonials Section -->
 <section id="testimonials">
 
-	<div class="text-container">
+  <div class="text-container">
 
-		<div class="row">
+    <div class="row">
 
-			<div class="two columns header-col">
+      <div class="two columns header-col">
 
-				<h1><span></span></h1>
+        <h1><span></span></h1>
 
-			</div>
+      </div>
 
-			<div class="ten columns flex-container">
+      <div class="ten columns flex-container">
 
-				<div class="flexslider">
+        <div class="flexslider">
 
-					<flex-slider animation='slide' control-nav=true direction-nav=false
-					smooth-height=true slideshow-speed=30000 animation-speed=600 randomize=true slide="testimonial in testimonials">
+          <flex-slider animation='slide' control-nav=true direction-nav=false
+          smooth-height=true slideshow-speed=30000 animation-speed=600 randomize=true slide="testimonial in testimonials">
 
-					<li>
-						<blockquote>
-							<p>{{testimonial.testimonial}}
-							</p>
-							<cite>{{testimonial.author}}</cite>
-							<em>{{testimonial.info}}</em>
-						</blockquote>
-					</li>
-				</flex-slider>
+          <li>
+            <blockquote>
+              <p>{{::testimonial.testimonial}}
+              </p>
+              <cite>{{::testimonial.author}}</cite>
+              <em>{{::testimonial.info}}</em>
+            </blockquote>
+          </li>
+        </flex-slider>
 
-			</div> <!-- div.flexslider ends -->
+      </div> <!-- div.flexslider ends -->
 
-		</div> <!-- div.flex-container ends -->
+    </div> <!-- div.flex-container ends -->
 
-	</div> <!-- row ends -->
+  </div> <!-- row ends -->
 
 </div>  <!-- text-container ends -->
 
@@ -466,30 +471,30 @@
 
 <footer>
 
-	<div class="row">
+  <div class="row">
 
-		<div class="twelve columns">
+    <div class="twelve columns">
 
-			<ul class="social-links">
-				<li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
-				<li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
-				<li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
-				<li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
-				<li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
-				<li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
-			</ul>
+      <ul class="social-links">
+        <li><a target="_blank" href="https://www.facebook.com/victorlaerte"><i class="fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/VictorLaerte"><i class="fa fa-twitter"></i></a></li>
+        <li><a target="_blank" href="https://br.linkedin.com/in/victorlaerte"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/victorlaerte/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://github.com/victorlaerte"><i class="fa fa-github"></i></a></li>
+        <li><a target="_blank" href="http://stackoverflow.com/users/1965189/victor-oliveira"><i class="fa fa-stack-overflow"></i></a></li>
+      </ul>
 
-			<ul class="copyright">
-				<li>&copy; Copyright 2014 CeeVee</li>
-				<li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
-				<li>Improvements by <a href="https://github.com/victorlaerte/victorlaerte.github.io" title="Styleshout" target="_blank">Victor Laerte</a></li>   
-			</ul>
+      <ul class="copyright">
+        <li>&copy; Copyright 2014 CeeVee</li>
+        <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
+        <li>Improvements by <a href="https://github.com/victorlaerte/victorlaerte.github.io" title="Styleshout" target="_blank">Victor Laerte</a></li>   
+      </ul>
 
-		</div>
+    </div>
 
-		<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home" ><i class="icon-up-open"></i></a></div>
+    <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home" ><i class="icon-up-open"></i></a></div>
 
-	</div>
+  </div>
 
 </footer> <!-- Footer End-->
 
@@ -512,8 +517,8 @@
    <!-- Google Analytics -->
    <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
    ga('create', 'UA-75456275-4', 'auto');
