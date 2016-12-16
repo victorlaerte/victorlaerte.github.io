@@ -60,7 +60,7 @@
                 name: "Facilit Tecnologia",
                 role: "Software Developer",
                 period: "May 2013 - Current",
-                description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
+                description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
               },
               skills_plp: "Programming Languages and Platforms:",
               skills_plp1: "Java EE / Android, C#, Javascript (Good or better);",
