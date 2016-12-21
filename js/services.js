@@ -101,7 +101,7 @@
                             skill: "SQL"
                         },
                         {
-                            votes: 24,
+                            votes: 25,
                             skill: "Java"
                         },
                         {
@@ -109,7 +109,7 @@
                             skill: "Android"
                         },
                         {
-                            votes: 21,
+                            votes: 23,
                             skill: "JQuery"
                         },
                         {
@@ -137,7 +137,7 @@
                             skill: "Windows Phone"
                         },
                         {
-                            votes: 11,
+                            votes: 12,
                             skill: "Tomcat"
                         },
                         {
@@ -149,15 +149,15 @@
                             skill: "JBoss Application Server"
                         },
                         {
-                            votes: 10,
+                            votes: 11,
                             skill: "Apache Tomcat"
                         },
                         {
-                            votes: 9,
+                            votes: 10,
                             skill: "Servidor de Aplicação JBoss"
                         },
                         {
-                            votes: 8,
+                            votes: 10,
                             skill: "Microsoft Visual Studio"
                         },
                         {
@@ -165,15 +165,15 @@
                             skill: "Digital TV"
                         },
                         {
+                            votes: 8,
+                            skill: "NetBeans"
+                        },
+                        {
                             votes: 7,
                             skill: "AngularJS"
                         },
                         {
                             votes: 7,
-                            skill: "NetBeans"
-                        },
-                        {
-                            votes: 6,
                             skill: "Lua"
                         },
                         {
@@ -181,23 +181,23 @@
                             skill: "Visual Studio"
                         },
                         {
-                            votes: 4,
+                            votes: 5,
                             skill: "Git"
                         },
                         {
-                            votes: 2,
+                            votes: 3,
                             skill: "Node.js"
                         },
                         {
-                            votes: 1,
+                            votes: 3,
                             skill: "GitHub"
                         },
                         {
-                            votes: 1,
+                            votes: 2,
                             skill: "MongoDB"
                         }
                     ],
-                    last_updated: "Last updated at 11/06/2016",
+                    last_updated: "Last updated at 20/12/2016",
                     portfolios: [{
                             closed: true,
                             title: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte",
@@ -339,22 +339,32 @@
                     testimonials: [{
                             testimonial: "Victor is smart, proactive has is a multitasker. Technically versatile, and also a team player. I'm sure he would be a great asset to any company.",
                             author: "Carlos Brandão Jr (Scrum Master at Liferay, Inc)",
-                            info: "20 de outubro de 2016, Linkedin — Carlos supervised Victor Laerte at Facilit Tecnologia"
+                            info: "October 20, 2016 from Linkedin — Carlos supervised Victor Laerte at Facilit Tecnologia"
                         },
                         {
                             testimonial: "Victor is one of the best problem-solvers I have ever worked with. During the time I've spent with him, he demonstrated expertise in his area and makes great decisions as Scrum Master, especially under pressure. I would gladly certify his skills in Software Development (Web and Mobile apps) from the many projects we've worked together.",
                             author: "Maxwell Francisco (Web Developer at Urban Insight)",
-                            info: "18 de outubro de 2016, Linkedin — Maxwell worked directly with Victor Laerte at Facilit Technology"
+                            info: "October 18, 2016 from Linkedin — Maxwell worked directly with Victor Laerte at Facilit Technology"
                         },
                         {
                             testimonial: "Victor is a great, experienced workmate and friend, talented and easy to work with. He has great technical skills and always willing to learn new technologies and practices (both academical and professional). He's willing to help the workmates and not afraid to work on challenging projects. He also gave great contributions to our internal processes in the company, such as adopt GitHub, Jenkins and other tools, which demonstrates interest to the company and its team, proactivity, out-of-the-box thinking and updated with best practices. He sure was a great addition to our team and will be anywhere he works. ",
                             author: "Everson Veríssimo (Developer at Facilit Tecnologia)",
-                            info: "17 de outubro de 2016, Linkedin — Everson worked directly with Victor Laerte at Facilit Tecnologia"
+                            info: "October 17, 2016 from Linkedin — Everson worked directly with Victor Laerte at Facilit Tecnologia"
                         },
                         {
                             testimonial: "We worked together by few years and I can say that Victor is one of the best developers who have had the opportunity to collaborate. Proactive, studious, committed to constantly improve their skills and always with strong and relevant opinions, whether or not on technical issues. As Scrum Master, showed one of his most admirable traits: being a good leader, fair and always enhancing the team work, resolving conflicts and ensuring delivering value to our product. Certainly one of the IT professionals that every company seeks and who would like to have another opportunity to work. I can't see a different future for Victor as well as great success.",
                             author: "Jordana Morais (Senior UX Designer & Front-end at Facilit Tecnologia)",
-                            info: "27 de setembro de 2016, Linkedin — Jordana worked directly with Victor Laerte at Facilit Tecnologia"
+                            info: "September 27, 2016 from Linkedin — Jordana worked directly with Victor Laerte at Facilit Tecnologia"
+                        },
+                        {
+                            testimonial: "Victor is a very talented and disciplined Software Engineer. Always working with a pro-active attitude he is able to help his team achieving their goals. He is definitely a good resource for any IT company as he learns fast and has compromise and ownership to his work. His skills range from an excellent sense of team work to technical skills such as widely used programming languages: Java, JavaScript and C#.",
+                            author: "Thiago Andrade (Full Stack Engineer at Crossover for Work)",
+                            info: "December 27, 2016 from Linkedin — Thiago supervised Victor Laerte at Facilit Tecnologia"
+                        },
+                        {
+                            testimonial: "I had the luck to work with Victor side by side, we both worked on Facilit's mobile application. It always amazed me the speed which Victor was able to deliver features, while constantly keeping up super code quality. Perhaps one of the most valuable traits of good developers is one's ability to turn complexity into simplicity, and that's why Victor was able to always deliver so rapidly, he repeatedly figured out the most efficient way to accomplish his goals. I also really admired Victor's care to user interfaces, they were always so responsive and fluid, resulting in a great user experience.",
+                            author: "João Neves (Senior iOS Developer at Salesforce)",
+                            info: "December 20, 2016 from Linkedin — João worked directly with Victor Laerte at Facilit Tecnologia"
                         }
                     ],
                     academicPubArray: [{
