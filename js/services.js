@@ -334,6 +334,10 @@
                         {
                             quote: "“One of my most productive days was throwing away 1000 lines of code.”",
                             author: "Ken Thompson (computer scientist, early developer of UNIX OS)"
+                        },
+                        {
+                            quote: "“Decision making often involves a tradeoff between effort and accuracy: The strategies that more often lead to the correct choice most of the time also require more effort and time.”",
+                            author: "Carsten K W De Dreu (University of Amsterdam)"
                         }
                     ],
                     testimonials: [{
