@@ -337,7 +337,7 @@
                         },
                         {
                             quote: "“Decision making often involves a tradeoff between effort and accuracy: The strategies that more often lead to the correct choice most of the time also require more effort and time.”",
-                            author: "Carsten K W De Dreu (Professor of Psychology at Leiden University and Behavioral Economics at the University of Amsterdam and member of the Royal Netherlands Academy of Arts and Sciences)"
+                            author: "Carsten de Dreu (Professor of Psychology at Leiden University, Behavioral Economics at the University of Amsterdam and member of the Royal Netherlands Academy of Arts and Sciences)"
                         }
                     ],
                     testimonials: [{
