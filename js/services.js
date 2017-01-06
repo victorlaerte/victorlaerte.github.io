@@ -36,7 +36,7 @@
                         description: "The final paper of the course sets out the key technical concepts and architectures of the Brazilian Digital Television System (SBTVD). In addition, we present the programming languages and development environments, emphasizing the preparation of a foundation for the implementation of an interactive application using declarative subsystem Ginga-NCL, which will serve to assess the knowledge of educational program viewers by answering of a questionnaire about the topic involved."
                     },
                     senai: {
-                        imgUrl : "images/logosenai.png",
+                        imgUrl : "images/logosenai.jpg",
                         name: "National Service for Industrial Training (SENAI)",
                         role: "Tech in Electronics",
                         period: "December 2006",
