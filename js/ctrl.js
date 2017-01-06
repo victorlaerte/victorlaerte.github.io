@@ -58,7 +58,7 @@
 		scope: {
 			item: '='
 		}, //TemplateURL CAN'T BE USED, NOT ALLOWED ON STATIC SITES! ONLY FOR HTTP SERVERS, you can use http-server nodejs
-		template: '<div class="row item"><div class="twelve columns"><img ng-src="{{item.imgUrl}}" height="70" width="100" class="pull-left" /><h3>{{item.name}}</h3><p class="info">{{item.role}} <span>&bull;</span> <em class="date">{{item.period}}</em></p><p>{{item.description}}</p><div ng-if="item.groups"><h6>Groups and Activities</h6><p ng-repeat="group in item.groups"><img ng-src="{{::group.imageUrl}}" alt="{{group.acronym}}" height="42" width="60" class="pull-left"/><span><a href="{{::group.url}}">{{::group.name}} ({{::group.acronym}}) </a></span><span>{{::group.description}}</span></p></div></div></div>'
+		template: '<div class="row item"><div class="twelve columns"><img ng-src="{{item.imgUrl}}" height="47" width="67" class="pull-left" /><h3>{{item.name}}</h3><p class="info">{{item.role}} <span>&bull;</span> <em class="date">{{item.period}}</em></p><p>{{item.description}}</p><div ng-if="item.groups"><h6>Groups and Activities</h6><p ng-repeat="group in item.groups"><img ng-src="{{::group.imageUrl}}" alt="{{group.acronym}}" height="42" width="60" class="pull-left"/><span><a href="{{::group.url}}">{{::group.name}} ({{::group.acronym}}) </a></span><span>{{::group.description}}</span></p></div></div></div>'
 		
 	 }
 
