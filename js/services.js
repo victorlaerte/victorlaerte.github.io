@@ -15,6 +15,7 @@
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
                     ufpe: {
+                        imgUrl : "images/logoufpe.jpg",
                         name: "Federal University of Pernambuco (UFPE)",
                         role: "MSc in Computer Science",
                         period: "In Progress",
@@ -28,42 +29,49 @@
                         }]
                     },
                     upe: {
+                        imgUrl : "images/logoupe.jpg",
                         name: "University of Pernambuco (UPE)",
                         role: "BSc in Information Systems",
                         period: "December 2011",
                         description: "The final paper of the course sets out the key technical concepts and architectures of the Brazilian Digital Television System (SBTVD). In addition, we present the programming languages and development environments, emphasizing the preparation of a foundation for the implementation of an interactive application using declarative subsystem Ginga-NCL, which will serve to assess the knowledge of educational program viewers by answering of a questionnaire about the topic involved."
                     },
                     senai: {
+                        imgUrl : "images/logosenai.png",
                         name: "National Service for Industrial Training (SENAI)",
                         role: "Tech in Electronics",
                         period: "December 2006",
                         description: "Electronics technician course"
                     },
                     umc: {
+                        imgUrl : "images/logoumc.jpg",
                         name: "Upper Madison College",
                         role: "ESL - English as a Second Language",
                         period: "October 2012",
                         description: "18 weeks of full-time Language Course, completing a 24 weeks exchange"
                     },
                     scrum_certificate: {
+                        imgUrl : "images/logocsm.png",
                         name: "Certified ScrumMaster",
                         role: "Scrum Alliance - 000400666",
                         period: "Until March 2017",
                         description: "A Certified ScrumMaster helps project teams properly use Scrum, increasing the likelihood of the project's overall success. CSMs understand Scrum values, practices, and applications and provide a level of knowledge and expertise above and beyond that of typical project managers. CSMs act as servant leaders, helping the rest of the Scrum team work together and learn the Scrum framework. CSMs also protect the team from both internal and external distractions"
                     },
                     c_sharp_certificate: {
+                        imgUrl : "images/logomicrosoft.jpg",
                         name: "Programming in C# Specialist",
                         role: "Microsoft - F108-2395",
                         period: "No expiration",
                         description: "Microsoft Exam 70-483"
                     },
                     mcp_certificate: {
+                        imgUrl : "images/logomicrosoft.jpg",
                         name: "Microsoft Certified Professional",
                         role: "Microsoft - F108-2395",
                         period: "No expiration",
                         description: "Microsoft Certified Professional (MCP) is a certification that validates the professional developer and technical expertise IT developer with rigorous testing, approved and recognized by the industry. MCP exams cover a wide range of products, technologies and Microsoft solutions."
                     },
                     facilit: {
+                        imgUrl : "images/logofacilit.jpg",
                         name: "Facilit Tecnologia",
                         role: "Software Developer",
                         period: "May 2013 - Current",
