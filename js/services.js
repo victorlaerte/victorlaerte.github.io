@@ -183,7 +183,7 @@
                     portfolios: [{
                         closed: true,
                         title: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte",
-                        description: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte, julho 2016",
+                        description: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte, july 2016",
                         imgUrl: "images/portfolio/painel_rn.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_rn.jpg",
                         url: "http://www.rn.gov.br/Conteudo.asp?TRAN=ITEM&TARG=131472&ACT&PAGE&PARM&LBL=NOT%C3%8DCIA",
@@ -195,7 +195,7 @@
                     }, {
                         closed: true,
                         title: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program - BR",
-                        description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, julho 2014",
+                        description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, july 2014",
                         imgUrl: "images/portfolio/painel_apt.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_apt.jpg",
                         url: "http://painel.mi.gov.br/web/agua-para-todos/login",
@@ -207,7 +207,7 @@
                     }, {
                         closed: true,
                         title: "Strategic Monitoring Panel of the National Ministry of Integration for the Project Integrao do São di Francisco (PISF)- BR",
-                        description: "Strategic Monitoring Panel of the National Ministry of Integration for the Project Integrao do São di Francisco (PISF), abril 2014",
+                        description: "Strategic Monitoring Panel of the National Ministry of Integration for the Project Integrao do São di Francisco (PISF), april 2014",
                         imgUrl: "images/portfolio/painel_pisf.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_pisf.jpg",
                         url: "http://pisf.mi.gov.br",
@@ -219,7 +219,7 @@
                     }, {
                         closed: true,
                         title: "Strategic Monitoring Panel of the Governo de Pernambuco - BR",
-                        description: "Strategic Monitoring Panel of the Governo de Pernambuco, novembro 2013",
+                        description: "Strategic Monitoring Panel of the Governo de Pernambuco, november 2013",
                         imgUrl: "images/portfolio/painel_govpe.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_govpe.jpg",
                         url: "http://www.paineldecontrole.pe.gov.br",
@@ -231,7 +231,7 @@
                     }, {
                         closed: true,
                         title: "Strategic Monitoring Panel of the National Ministry of Integration - BR",
-                        description: "Strategic Monitoring Panel of the National Ministry of Integration, novembro 2013",
+                        description: "Strategic Monitoring Panel of the National Ministry of Integration, november 2013",
                         imgUrl: "images/portfolio/painel_mi.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_mi.jpg",
                         url: "http://painel.mi.gov.br",
