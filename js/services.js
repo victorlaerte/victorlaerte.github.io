@@ -194,40 +194,6 @@
                         }]
                     }, {
                         closed: true,
-                        title: "Target App for Windows Store",
-                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
-                        imgUrl: "images/portfolio/tgapp_windows.jpg",
-                        modalImgUrl: "images/portfolio/modals/tgapp_windows.jpg",
-                        url: "http://www.microsoft.com/en-us/store/p/target-app/9wzdncrdc3k1",
-                        tags: [{
-                            name: "C#"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "Target App for Android",
-                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
-                        imgUrl: "images/portfolio/tgapp_android.png",
-                        modalImgUrl: "images/portfolio/modals/tgapp_android.jpg",
-                        url: "http://play.google.com/store/apps/details?id=br.com.facilit.target.app.android&hl=pt-br",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "Na Onda",
-                        description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
-                        imgUrl: "images/portfolio/naonda.png",
-                        modalImgUrl: "images/portfolio/modals/naonda.jpg",
-                        url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
                         title: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program - BR",
                         description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, julho 2014",
                         imgUrl: "images/portfolio/painel_apt.jpg",
@@ -271,6 +237,64 @@
                         url: "http://painel.mi.gov.br",
                         tags: [{
                             name: "java"
+                        }, {
+                            name: "javascript"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Target App for Windows Store",
+                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
+                        imgUrl: "images/portfolio/tgapp_windows.jpg",
+                        modalImgUrl: "images/portfolio/modals/tgapp_windows.jpg",
+                        url: "http://www.microsoft.com/en-us/store/p/target-app/9wzdncrdc3k1",
+                        tags: [{
+                            name: "C#"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Target App for Android",
+                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
+                        imgUrl: "images/portfolio/tgapp_android.png",
+                        modalImgUrl: "images/portfolio/modals/tgapp_android.jpg",
+                        url: "http://play.google.com/store/apps/details?id=br.com.facilit.target.app.android&hl=pt-br",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Na Onda",
+                        description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
+                        imgUrl: "images/portfolio/naonda.png",
+                        modalImgUrl: "images/portfolio/modals/naonda.jpg",
+                        url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Safadômetro",
+                        description: "Inspired by the music of singer Wesley Safadão in this application you can calculate your percentage of angel and vagabond and share it with your friends.",
+                        imgUrl: "images/portfolio/safadometro.png",
+                        modalImgUrl: "images/portfolio/modals/safadometro.png",
+                        url: "https://play.google.com/store/apps/details?id=com.victorlaerte.safadometro&hl=pt_BR",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "BeerJs - Recife",
+                        description: "A community to bring together JavaScript Beer lovers in the world's major cities",
+                        imgUrl: "images/portfolio/beerjs.png",
+                        modalImgUrl: "images/portfolio/modals/beerjs.png",
+                        url: "https://beerjs.github.io/recife/",
+                        tags: [{
+                            name: "entertainment"
                         }, {
                             name: "javascript"
                         }]
