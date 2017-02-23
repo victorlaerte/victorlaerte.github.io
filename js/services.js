@@ -182,7 +182,65 @@
                     last_updated: "Last updated at 20/12/2016",
                     portfolios: [{
                         closed: true,
-                        title: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte",
+                        title: "Trump Ipsum",
+                        description: "An extension for Sublime Text 2 and 3! It allows you to insert the best Dumbest Lorem Ipsum in the editor via menu items or keyboard shortcuts.",
+                        imgUrl: "images/portfolio/trump.png",
+                        modalImgUrl: "images/portfolio/modals/trump.png",
+                        url: "http://www.trumpipsum.org/",
+                        tags: [{
+                            name: "entertainment"
+                        }, {
+                            name: "python"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "BeerJs - Recife",
+                        description: "A community to bring together JavaScript Beer lovers in the world's major cities",
+                        imgUrl: "images/portfolio/beerjs.png",
+                        modalImgUrl: "images/portfolio/modals/beerjs.png",
+                        url: "https://beerjs.github.io/recife/",
+                        tags: [{
+                            name: "entertainment"
+                        }, {
+                            name: "javascript"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Safadômetro",
+                        description: "Inspired by the music of singer Wesley Safadão in this application you can calculate your percentage of angel and vagabond and share it with your friends.",
+                        imgUrl: "images/portfolio/safadometro.png",
+                        modalImgUrl: "images/portfolio/modals/safadometro.png",
+                        url: "https://play.google.com/store/apps/details?id=com.victorlaerte.safadometro&hl=pt_BR",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Na Onda",
+                        description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
+                        imgUrl: "images/portfolio/naonda.png",
+                        modalImgUrl: "images/portfolio/modals/naonda.jpg",
+                        url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Target App for Windows Store",
+                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
+                        imgUrl: "images/portfolio/tgapp_windows.jpg",
+                        modalImgUrl: "images/portfolio/modals/tgapp_windows.jpg",
+                        url: "http://www.microsoft.com/en-us/store/p/target-app/9wzdncrdc3k1",
+                        tags: [{
+                            name: "C#"
+                        }]
+                    }, {
+                        closed: true,
+                        title: "Strategic Monitoring Panel of the Rio Grande do Norte Government",
                         description: "Strategic Monitoring Panel of the Governo do Rio Grande do Norte, july 2016",
                         imgUrl: "images/portfolio/painel_rn.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_rn.jpg",
@@ -206,8 +264,8 @@
                         }]
                     }, {
                         closed: true,
-                        title: "Strategic Monitoring Panel of the National Ministry of Integration for the Project Integrao do São di Francisco (PISF)- BR",
-                        description: "Strategic Monitoring Panel of the National Ministry of Integration for the Project Integrao do São di Francisco (PISF), april 2014",
+                        title: "Strategic Monitoring Panel of the National Ministry of Integration for PISF- BR",
+                        description: "Strategic Monitoring Panel of the National Ministry of Integration for PISF, april 2014",
                         imgUrl: "images/portfolio/painel_pisf.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_pisf.jpg",
                         url: "http://pisf.mi.gov.br",
@@ -218,8 +276,8 @@
                         }]
                     }, {
                         closed: true,
-                        title: "Strategic Monitoring Panel of the Governo de Pernambuco - BR",
-                        description: "Strategic Monitoring Panel of the Governo de Pernambuco, november 2013",
+                        title: "Strategic Monitoring Panel of the Pernambuco Government - BR",
+                        description: "Strategic Monitoring Panel of the Pernambuco Government, november 2013",
                         imgUrl: "images/portfolio/painel_govpe.jpg",
                         modalImgUrl: "images/portfolio/modals/painel_govpe.jpg",
                         url: "http://www.paineldecontrole.pe.gov.br",
@@ -242,16 +300,6 @@
                         }]
                     }, {
                         closed: true,
-                        title: "Target App for Windows Store",
-                        description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
-                        imgUrl: "images/portfolio/tgapp_windows.jpg",
-                        modalImgUrl: "images/portfolio/modals/tgapp_windows.jpg",
-                        url: "http://www.microsoft.com/en-us/store/p/target-app/9wzdncrdc3k1",
-                        tags: [{
-                            name: "C#"
-                        }]
-                    }, {
-                        closed: true,
                         title: "Target App for Android",
                         description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
                         imgUrl: "images/portfolio/tgapp_android.png",
@@ -261,42 +309,6 @@
                             name: "java"
                         }, {
                             name: "android"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "Na Onda",
-                        description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
-                        imgUrl: "images/portfolio/naonda.png",
-                        modalImgUrl: "images/portfolio/modals/naonda.jpg",
-                        url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "Safadômetro",
-                        description: "Inspired by the music of singer Wesley Safadão in this application you can calculate your percentage of angel and vagabond and share it with your friends.",
-                        imgUrl: "images/portfolio/safadometro.png",
-                        modalImgUrl: "images/portfolio/modals/safadometro.png",
-                        url: "https://play.google.com/store/apps/details?id=com.victorlaerte.safadometro&hl=pt_BR",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "BeerJs - Recife",
-                        description: "A community to bring together JavaScript Beer lovers in the world's major cities",
-                        imgUrl: "images/portfolio/beerjs.png",
-                        modalImgUrl: "images/portfolio/modals/beerjs.png",
-                        url: "https://beerjs.github.io/recife/",
-                        tags: [{
-                            name: "entertainment"
-                        }, {
-                            name: "javascript"
                         }]
                     }],
                     quotes: [{
