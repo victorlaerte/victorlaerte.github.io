@@ -329,6 +329,9 @@
                     }, {
                         quote: "“Decision making often involves a tradeoff between effort and accuracy: The strategies that more often lead to the correct choice most of the time also require more effort and time.”",
                         author: "Carsten de Dreu (Professor of Psychology at Leiden University, Behavioral Economics at the University of Amsterdam and member of the Royal Netherlands Academy of Arts and Sciences)"
+                    }, {
+                        quote: "“Raise your quality standards as high as you can live with, avoid wasting your time on routine problems, and always try to work as closely as possible at the boundary of your abilities. Do this, because it is the only way of discovering how that boundary should be moved foward.”",
+                        author: "Edsger Wybe Dijkstra (Computer scientist and an early pioneer in many research areas of computing science. Turing Award Winner)"
                     }],
                     testimonials: [{
                         testimonial: "Victor is smart, proactive has is a multitasker. Technically versatile, and also a team player. I'm sure he would be a great asset to any company.",
