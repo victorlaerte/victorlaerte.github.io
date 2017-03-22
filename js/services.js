@@ -9,9 +9,9 @@
                 var strings = {
                     name: "Victor Laerte de Oliveira",
                     title: "I'm Victor Laerte Oliveira.",
-                    subtitle: "MSc Candidate - CIn UFPE, Software Developer - Facilit Tecnologia",
+                    subtitle: "MSc Candidate - CIn UFPE, Mobile Software Engineer - Liferay Inc.",
                     aboutMeEducation: "MSc candidate in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
-                    aboutMeWork: "At the same time with the researcher occupation, I've been working as software developer at Facilit Technology since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
+                    aboutMeWork: "At the same time with the researcher occupation, I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
                     ufpe: {
@@ -70,11 +70,18 @@
                         period: "No expiration",
                         description: "Microsoft Certified Professional (MCP) is a certification that validates the professional developer and technical expertise IT developer with rigorous testing, approved and recognized by the industry. MCP exams cover a wide range of products, technologies and Microsoft solutions."
                     },
+                    liferay: {
+                        imgUrl : "images/liferay.png",
+                        name: "Liferay Inc.",
+                        role: "Mobile Software Engineer",
+                        period: "March 2017 - Current",
+                        description: "Mobile Software Engineer. Working with Java, Obj-C, Swift, C# and others."
+                    },
                     facilit: {
                         imgUrl : "images/logofacilit.jpg",
                         name: "Facilit Tecnologia",
                         role: "Software Developer",
-                        period: "May 2013 - Current",
+                        period: "May 2013 - March 2017",
                         description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
                     },
                     skills_plp: "Programming Languages and Platforms:",
