@@ -8,9 +8,9 @@
 
                 var strings = {
                     name: "Victor Laerte de Oliveira",
-                    title: "I'm Victor Laerte Oliveira.",
-                    subtitle: "MSc Candidate - CIn UFPE, Mobile Software Engineer - Liferay Inc.",
-                    aboutMeEducation: "MSc candidate in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
+                    title: "Victor Laerte de Oliveira",
+                    subtitle: "MSc Student - CIn UFPE, Mobile Software Engineer - Liferay Inc.",
+                    aboutMeEducation: "MSc Student in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
                     aboutMeWork: "At the same time with the researcher occupation, I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
@@ -75,7 +75,7 @@
                         name: "Liferay Inc.",
                         role: "Mobile Software Engineer",
                         period: "March 2017 - Current",
-                        description: "Mobile Software Engineer. Working with Java, Obj-C, Swift, C# and others."
+                        description: "Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Obj-C, Swift, C# and others."
                     },
                     facilit: {
                         imgUrl : "images/logofacilit.jpg",
