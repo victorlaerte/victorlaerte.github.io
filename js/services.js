@@ -15,6 +15,7 @@
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
                     ufpe: {
+                        url : "http://www.cin.ufpe.br",
                         imgUrl : "images/logoufpe.jpg",
                         name: "Federal University of Pernambuco (UFPE)",
                         role: "MSc in Computer Science",
@@ -29,6 +30,7 @@
                         }]
                     },
                     upe: {
+                        url : "http://upecaruaru.com.br",
                         imgUrl : "images/logoupe.jpg",
                         name: "University of Pernambuco (UPE)",
                         role: "BSc in Information Systems",
@@ -36,6 +38,7 @@
                         description: "The final paper of the course sets out the key technical concepts and architectures of the Brazilian Digital Television System (SBTVD). In addition, we present the programming languages and development environments, emphasizing the preparation of a foundation for the implementation of an interactive application using declarative subsystem Ginga-NCL, which will serve to assess the knowledge of educational program viewers by answering of a questionnaire about the topic involved."
                     },
                     senai: {
+                        url : "http://www.pe.senai.br",
                         imgUrl : "images/logosenai.jpg",
                         name: "National Service for Industrial Training (SENAI)",
                         role: "Tech in Electronics",
@@ -43,6 +46,7 @@
                         description: "Electronics technician course"
                     },
                     umc: {
+                        url : "http://umcollege.ca",
                         imgUrl : "images/logoumc.jpg",
                         name: "Upper Madison College",
                         role: "ESL - English as a Second Language",
@@ -71,6 +75,7 @@
                         description: "Microsoft Certified Professional (MCP) is a certification that validates the professional developer and technical expertise IT developer with rigorous testing, approved and recognized by the industry. MCP exams cover a wide range of products, technologies and Microsoft solutions."
                     },
                     liferay: {
+                        url : "http://liferay.com",
                         imgUrl : "images/liferay.png",
                         name: "Liferay Inc.",
                         role: "Mobile Software Engineer",
@@ -78,6 +83,7 @@
                         description: "Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Obj-C, Swift, C# and others."
                     },
                     facilit: {
+                        url : "http://www.facilit.com.br",
                         imgUrl : "images/logofacilit.jpg",
                         name: "Facilit Tecnologia",
                         role: "Software Developer",
@@ -85,58 +91,63 @@
                         description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
                     },
                     skills_plp: "Programming Languages and Platforms:",
-                    skills_plp1: "Java EE / Android, C#, Javascript (Good or better);",
+                    skills_plp1: "Java EE / Android, C#, Javascript, Swift (Good or better);",
                     skills_plp2: "SQL, NCL, Lua (Regular);",
-                    skills_plp3: "Objective C, Swift (Basic or less)",
+                    skills_plp3: "Objective C, Kotlin (Basic or less)",
                     skills_experience: "Experience in:",
                     skills_experience_array: [{
-                        text: "Mobile Development: Android, Windows Phone/8, IOs;"
+                        text: "Mobile Development: Android, iOS, Windows Phone/8;"
                     }, {
                         text: "RDBMS: MySQL, PostgreSQL, MongoDB;"
                     }, {
                         text: "Application Servers and web containers: JBOSS e Tomcat;"
                     }, {
-                        text: "IDE: Eclipse, Android Studio, IntelliJ IDEA, Visual Studio, NetBeans;"
+                        text: "IDE: Eclipse, Android Studio, xCode, IntelliJ IDEA, Visual Studio, NetBeans;"
                     }, {
-                        text: "Frameworks, API’s, General Applications: AngularJS, jQuery, NodeJs, ExpressJS, Struts, Spring, Liferay Portal;"
+                        text: "Frameworks, API’s, General Applications: Realm, AngularJS, jQuery, NodeJs, ExpressJS, Struts, Spring, Liferay Portal, Ant, Maven, Gradle;"
+                    }, {
+                        text: "Continuous Integration: Jenkinds, Travis CI;"
                     }, {
                         text: "CVS: SVN, Git"
                     }],
                     skills_and_recommendations: "Skills and Recommendations",
                     skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
                     linkedin_skills: [{
-                        votes: 29,
+                        votes: 30,
                         skill: "Scrum"
                     }, {
-                        votes: 28,
+                        votes: 30,
                         skill: "JavaScript"
                     }, {
-                        votes: 26,
+                        votes: 27,
                         skill: "SQL"
                     }, {
-                        votes: 25,
+                        votes: 28,
                         skill: "Java"
                     }, {
-                        votes: 23,
+                        votes: 26,
                         skill: "Android"
                     }, {
                         votes: 23,
                         skill: "JQuery"
                     }, {
+                        votes: 20,
+                        skill: "C#"
+                    }, {
+                        votes: 20,
+                        skill: "Java software development"
+                    }, {
                         votes: 19,
                         skill: "Java Enterprise Edition"
                     }, {
                         votes: 18,
-                        skill: "Java software development"
-                    }, {
-                        votes: 18,
-                        skill: "C#"
-                    }, {
-                        votes: 17,
                         skill: "Eclipse"
                     }, {
                         votes: 14,
                         skill: "Subversion"
+                    }, {
+                        votes: 13,
+                        skill: "Apache Tomcat"
                     }, {
                         votes: 12,
                         skill: "Windows Phone"
@@ -147,23 +158,20 @@
                         votes: 10,
                         skill: "Windows software development"
                     }, {
+                        votes: 11,
+                        skill: "Servidor de Aplicação JBoss"
+                    }, {
                         votes: 10,
                         skill: "JBoss Application Server"
-                    }, {
-                        votes: 11,
-                        skill: "Apache Tomcat"
-                    }, {
-                        votes: 10,
-                        skill: "Servidor de Aplicação JBoss"
                     }, {
                         votes: 10,
                         skill: "Microsoft Visual Studio"
                     }, {
-                        votes: 8,
-                        skill: "Digital TV"
+                        votes: 9,
+                        skill: "NetBeans"
                     }, {
                         votes: 8,
-                        skill: "NetBeans"
+                        skill: "Digital TV"
                     }, {
                         votes: 7,
                         skill: "AngularJS"
@@ -171,23 +179,39 @@
                         votes: 7,
                         skill: "Lua"
                     }, {
+                        votes: 7,
+                        skill: "Git"
+                    }, {
                         votes: 5,
                         skill: "Visual Studio"
                     }, {
-                        votes: 5,
-                        skill: "Git"
-                    }, {
-                        votes: 3,
-                        skill: "Node.js"
-                    }, {
-                        votes: 3,
+                        votes: 4,
                         skill: "GitHub"
+                    }, {
+                        votes: 4,
+                        skill: "Node.js"
                     }, {
                         votes: 2,
                         skill: "MongoDB"
                     }],
-                    last_updated: "Last updated at 20/12/2016",
+                    last_updated: "Last updated at 18/16/2017",
                     portfolios: [{
+                        closed: true,
+                        title: "Liferay Loop",
+                        description: "Loop is Liferay's enterprise social network. Get connected to your co-workers, share posts with your team, follow topics that interest you!",
+                        imgUrl: "images/portfolio/loop.png",
+                        modalImgUrl: "images/portfolio/modals/loop.png",
+                        url: "https://itunes.apple.com/app/liferay-loop/id999031610",
+                        tags: [{
+                            name: "swift"
+                        }, {
+                            name: "ios"
+                        }, {
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    }, {
                         closed: true,
                         title: "Trump Ipsum",
                         description: "An extension for Sublime Text 2 and 3! It allows you to insert the best Dumbest Lorem Ipsum in the editor via menu items or keyboard shortcuts.",
