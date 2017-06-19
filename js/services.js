@@ -119,11 +119,11 @@
                         votes: 30,
                         skill: "JavaScript"
                     }, {
-                        votes: 27,
-                        skill: "SQL"
-                    }, {
                         votes: 28,
                         skill: "Java"
+                    }, {
+                        votes: 27,
+                        skill: "SQL"
                     }, {
                         votes: 26,
                         skill: "Android"
