@@ -685,6 +685,14 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
+
+#testimonials .profile-pic {
+   position: relative;
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+}
+
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;

@@ -476,7 +476,9 @@
 
                             <li>
                                 <blockquote>
-                                    <p>{{::testimonial.testimonial}}
+                                    <p>
+                                        <img class="profile-pic pull-left" src=" {{::testimonial.imgUrl}}" alt="" />
+                                        {{::testimonial.testimonial}}
                                     </p>
                                     <cite>{{::testimonial.author}}</cite>
                                     <em>{{::testimonial.info}}</em>
