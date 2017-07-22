@@ -80,7 +80,7 @@
                         name: "Liferay Inc.",
                         role: "Mobile Software Engineer",
                         period: "March 2017 - Current",
-                        description: "Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Obj-C, Swift, C# and others."
+                        description: "Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others."
                     },
                     facilit: {
                         url : "http://www.facilit.com.br",
@@ -113,11 +113,11 @@
                     skills_and_recommendations: "Skills and Recommendations",
                     skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
                     linkedin_skills: [{
-                        votes: 30,
-                        skill: "Scrum"
+                        votes: 31,
+                        skill: "JavaScript"
                     }, {
                         votes: 30,
-                        skill: "JavaScript"
+                        skill: "Scrum"
                     }, {
                         votes: 28,
                         skill: "Java"
@@ -131,11 +131,11 @@
                         votes: 23,
                         skill: "JQuery"
                     }, {
-                        votes: 20,
-                        skill: "C#"
+                        votes: 21,
+                        skill: "Java software development"
                     }, {
                         votes: 20,
-                        skill: "Java software development"
+                        skill: "C#"
                     }, {
                         votes: 19,
                         skill: "Java Enterprise Edition"
@@ -155,11 +155,11 @@
                         votes: 12,
                         skill: "Tomcat"
                     }, {
-                        votes: 10,
-                        skill: "Windows software development"
-                    }, {
                         votes: 11,
                         skill: "Servidor de Aplicação JBoss"
+                    }, {
+                        votes: 10,
+                        skill: "Windows software development"
                     }, {
                         votes: 10,
                         skill: "JBoss Application Server"
@@ -194,7 +194,7 @@
                         votes: 2,
                         skill: "MongoDB"
                     }],
-                    last_updated: "Last updated at 18/16/2017",
+                    last_updated: "Last updated at 07/22/2017",
                     portfolios: [{
                         closed: true,
                         title: "Liferay Loop",
@@ -205,7 +205,11 @@
                         tags: [{
                             name: "swift"
                         }, {
+                            name: "objective-c"
+                        }, {
                             name: "ios"
+                        }, {
+                            name: "kotlin"
                         }, {
                             name: "java"
                         }, {
@@ -386,7 +390,7 @@
                         imgUrl: "images/jordana_morais.jpg"
                     }, {
                         testimonial: "Victor is a very talented and disciplined Software Engineer. Always working with a pro-active attitude he is able to help his team achieving their goals. He is definitely a good resource for any IT company as he learns fast and has compromise and ownership to his work. His skills range from an excellent sense of team work to technical skills such as widely used programming languages: Java, JavaScript and C#.",
-                        author: "Thiago Andrade (Full Stack Engineer at Crossover for Work)",
+                        author: "Thiago Andrade (Web Development Engineer at Amazon)",
                         info: "December 27, 2016 from Linkedin — Thiago supervised Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/thiago_andrade.jpg"
                     }, {
