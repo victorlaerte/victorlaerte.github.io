@@ -417,14 +417,14 @@
                                 link: "http://mycyber-space.blogspot.com.br/2014/05/javafx-asynctask.html",
                                 yearAndLocation: "2014"
                             }, {
-                                language: "pt-BR",
-                                title: "Android, IOS: como detectar e corrigir crashes do meu aplicativo? Crashlytics",
-                                link: "http://mycyber-space.blogspot.com.br/2014/05/android-ios-como-detectar-e-corrigir.html",
-                                yearAndLocation: "2014"
+                                language: "en",
+                                title: "Crashlytics: How to detect and fix crashes in your app",
+                                link: "https://medium.com/@victorlaertedoliveira/archive-crashlytics-how-to-detect-and-fix-crashes-in-your-app-9c0821b8218",
+                                yearAndLocation: "2014, republished in 2017"
                             }, {
-                                language: "pt-BR",
-                                title: "Android: Como fazer para as imagens de sua aplicação não serem exibidas na galeria?",
-                                link: "http://mycyber-space.blogspot.com.br/2014/05/android-como-fazer-para-as-imagens-de.html",
+                                language: "en",
+                                title: "Android: How to make Android gallery ignore the images of your app?",
+                                link: "https://medium.com/@victorlaertedoliveira/archive-android-how-to-make-android-gallery-ignore-the-images-of-your-app-9563ab2e7f05",
                                 yearAndLocation: "2014"
                             },
 
