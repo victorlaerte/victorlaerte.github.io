@@ -425,7 +425,7 @@
                                 language: "en",
                                 title: "Android: How to make Android gallery ignore the images of your app?",
                                 link: "https://medium.com/@victorlaertedoliveira/archive-android-how-to-make-android-gallery-ignore-the-images-of-your-app-9563ab2e7f05",
-                                yearAndLocation: "2014"
+                                yearAndLocation: "2014, republished in 2017"
                             },
 
                         ],
