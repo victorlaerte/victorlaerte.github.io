@@ -412,10 +412,10 @@
                     nonAcademicPubArray: [{
                         category: "Blog's most viewed posts",
                         items: [{
-                                language: "pt-BR",
-                                title: "JavaFX AsyncTask: Um jeito fácil de manusear threads com JavaFX",
-                                link: "http://mycyber-space.blogspot.com.br/2014/05/javafx-asynctask.html",
-                                yearAndLocation: "2014"
+                                language: "en",
+                                title: "JavaFX AsyncTask: A easy way to handle multithreading in JavaFX",
+                                link: "https://medium.com/@victorlaertedoliveira/archive-javafx-asynctask-a-easy-way-to-handle-multithreading-in-javafx-26689f3cd8fa",
+                                yearAndLocation: "2014, republished in 2017"
                             }, {
                                 language: "en",
                                 title: "Crashlytics: How to detect and fix crashes in your app",
