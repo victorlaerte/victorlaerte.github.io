@@ -91,9 +91,8 @@
                         description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
                     },
                     skills_plp: "Programming Languages and Platforms:",
-                    skills_plp1: "Java EE / Android, C#, Javascript, Swift, Kotlin (Good or better);",
-                    skills_plp2: "SQL, NCL, Lua (Regular);",
-                    skills_plp3: "Objective C (Basic or less)",
+                    skills_plp1: "Java EE / Android, Kotlin, Javascript, C#, Swift (Good or better);",
+                    skills_plp2: "Objective C, SQL, NCL, Lua (Regular);",
                     skills_experience: "Experience in:",
                     skills_experience_array: [{
                         text: "Mobile Development: Android, iOS, Windows Phone/8;"
