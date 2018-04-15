@@ -84,7 +84,7 @@
 
                 <h3>{{::getData('subtitle')}}</h3>
 
-                <h3><span>Mobile software engineer</span>, <span>researcher</span> and <span>technology enthusiast</span> seeking professional, social and spiritual fulfillment.
+                <h3><span>Mobile software engineer</span>, <span>researcher</span> and <span>technology enthusiast</span>.
                 </h3>
 
                 <hr />
@@ -429,25 +429,23 @@
                             <span><a target="_blank" href="{{::pub.link}}">({{::pub.language}}) {{::pub.title}}</a> - {{::pub.yearAndLocation}}</span>
                         </li>
                     </ul>
+                </div>
+                
+                <div>
 
-                    <div>
+                    <hr>
 
-                        <hr>
+                    <h2>Non-Academic</h2>
 
-                        <h2>Non-Academic</h2>
+                    <div ng-repeat="nonAcademicPub in nonAcademicPubArray">
+                        <h4>{{::nonAcademicPub.category}}</h4>
 
-                        <div ng-repeat="nonAcademicPub in nonAcademicPubArray">
-                            <h4>{{::nonAcademicPub.category}}</h4>
-
-                            <ul>
-                                <li ng-repeat="pub in nonAcademicPub.items"><span><a target="_blank" href="{{::pub.link}}">({{::pub.language}}) {{::pub.title}}</a> - {{::pub.yearAndLocation}}</span></li>
-                            </ul>
-                        </div>
-
+                        <ul>
+                            <li ng-repeat="pub in nonAcademicPub.items"><span><a target="_blank" href="{{::pub.link}}">({{::pub.language}}) {{::pub.title}}</a> - {{::pub.yearAndLocation}}</span></li>
+                        </ul>
                     </div>
 
                 </div>
-
             </div>
 
     </section>

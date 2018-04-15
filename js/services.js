@@ -112,34 +112,34 @@
                     skills_and_recommendations: "Skills and Recommendations",
                     skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
                     linkedin_skills: [{
-                        votes: 31,
+                        votes: 32,
                         skill: "JavaScript"
                     }, {
                         votes: 30,
                         skill: "Scrum"
                     }, {
-                        votes: 28,
+                        votes: 29,
                         skill: "Java"
                     }, {
-                        votes: 27,
+                        votes: 28,
                         skill: "SQL"
                     }, {
-                        votes: 26,
+                        votes: 27,
                         skill: "Android"
                     }, {
                         votes: 23,
                         skill: "JQuery"
                     }, {
-                        votes: 21,
+                        votes: 22,
                         skill: "Java software development"
                     }, {
                         votes: 20,
                         skill: "C#"
                     }, {
-                        votes: 19,
+                        votes: 20,
                         skill: "Java Enterprise Edition"
                     }, {
-                        votes: 18,
+                        votes: 19,
                         skill: "Eclipse"
                     }, {
                         votes: 14,
@@ -170,6 +170,9 @@
                         skill: "NetBeans"
                     }, {
                         votes: 8,
+                        skill: "Git"
+                    }, {
+                        votes: 8,
                         skill: "Digital TV"
                     }, {
                         votes: 7,
@@ -177,9 +180,6 @@
                     }, {
                         votes: 7,
                         skill: "Lua"
-                    }, {
-                        votes: 7,
-                        skill: "Git"
                     }, {
                         votes: 5,
                         skill: "Visual Studio"
@@ -193,8 +193,21 @@
                         votes: 2,
                         skill: "MongoDB"
                     }],
-                    last_updated: "Last updated at 07/22/2017",
-                    portfolios: [{
+                    last_updated: "Last updated at 04/15/2018",
+                    portfolios: [
+                    {
+                        closed: true,
+                        title: "WeDeploy Android SDK",
+                        description: "WeDeploy helps you build from simple to complex applications. We give you predefined services that can speed up your development process.",
+                        imgUrl: "images/portfolio/welogo.png",
+                        modalImgUrl: "images/portfolio/modals/wedeploy.png",
+                        url: "https://github.com/wedeploy/wedeploy-sdk-android",
+                        tags: [{
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }]
+                    },{
                         closed: true,
                         title: "Liferay Loop",
                         description: "Loop is Liferay's enterprise social network. Get connected to your co-workers, share posts with your team, follow topics that interest you!",
@@ -245,18 +258,6 @@
                         imgUrl: "images/portfolio/safadometro.png",
                         modalImgUrl: "images/portfolio/modals/safadometro.png",
                         url: "https://play.google.com/store/apps/details?id=com.victorlaerte.safadometro&hl=pt_BR",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
-                        title: "Na Onda",
-                        description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
-                        imgUrl: "images/portfolio/naonda.png",
-                        modalImgUrl: "images/portfolio/modals/naonda.jpg",
-                        url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
                         tags: [{
                             name: "java"
                         }, {
@@ -399,6 +400,14 @@
                         imgUrl: "images/joao_neves.jpg"
                     }],
                     academicPubArray: [{
+                        category: "Scientifc Papers",
+                        items: [{
+                            language: "en-US",
+                            title: "An Initial Understanding of Task Interdependence in Software Engineering: A Case Study",
+                            link: "http://www.victorlaerte.com/task-interdependence/",
+                            yearAndLocation: "11th International Workshop on Cooperative and Human Aspects of Software, May 27, 2018, Gothenburg, Sweden"
+                        }],
+                    }, {
                         category: "Bachelor's Thesis",
                         items: [{
                             language: "pt-BR",
@@ -406,7 +415,6 @@
                             link: "doc/tcc.pdf",
                             yearAndLocation: "2011 at University of Pernambuco"
                         }],
-
                     }],
                     nonAcademicPubArray: [{
                         category: "Blog's most viewed posts",
@@ -426,11 +434,8 @@
                                 link: "https://medium.com/@victorlaertedoliveira/archive-android-how-to-make-android-gallery-ignore-the-images-of-your-app-9563ab2e7f05",
                                 yearAndLocation: "2014, republished in 2017"
                             },
-
                         ],
-
                     }],
-
                 }
 
                 this.get = function (key) {
