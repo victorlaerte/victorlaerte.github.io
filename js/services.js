@@ -78,9 +78,9 @@
                         url : "http://liferay.com",
                         imgUrl : "images/liferay.png",
                         name: "Liferay Inc.",
-                        role: "Mobile Software Engineer",
+                        role: "Lead Mobile Software Engineer",
                         period: "March 2017 - Current",
-                        description: "Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others."
+                        description: "Lead Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others."
                     },
                     facilit: {
                         url : "http://www.facilit.com.br",
