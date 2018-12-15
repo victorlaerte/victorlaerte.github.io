@@ -253,18 +253,6 @@
                         }]
                     }, {
                         closed: true,
-                        title: "Safadômetro",
-                        description: "Inspired by the music of singer Wesley Safadão in this application you can calculate your percentage of angel and vagabond and share it with your friends.",
-                        imgUrl: "images/portfolio/safadometro.png",
-                        modalImgUrl: "images/portfolio/modals/safadometro.png",
-                        url: "https://play.google.com/store/apps/details?id=com.victorlaerte.safadometro&hl=pt_BR",
-                        tags: [{
-                            name: "java"
-                        }, {
-                            name: "android"
-                        }]
-                    }, {
-                        closed: true,
                         title: "Target App for Windows Store",
                         description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
                         imgUrl: "images/portfolio/tgapp_windows.jpg",
