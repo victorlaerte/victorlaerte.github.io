@@ -37,6 +37,9 @@
    ================================================== -->
     <header id="home">
 
+        <span class="skype-button bubble " data-contact-id="victorlaerte"></span>
+        <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+        
         <nav id="nav-wrap">
 
             <a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{::getData('title')}}</a>
@@ -140,17 +143,6 @@
                             <span><a href="mailto:{{::getData('email')}}">
                 {{::getData('email')}}
               </a></span>
-                            <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                            <div id="SkypeButton_Call_victorlaerte_1">
-                                <script type="text/javascript">
-                                    Skype.ui({
-                                        "name": "dropdown",
-                                        "element": "SkypeButton_Call_victorlaerte_1",
-                                        "participants": ["victorlaerte"],
-                                        "imageSize": 24
-                                    });
-                                </script>
-                            </div>
                         </p>
 
                     </div>
