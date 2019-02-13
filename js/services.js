@@ -20,7 +20,7 @@
                         name: "Federal University of Pernambuco (UFPE)",
                         role: "MSc in Computer Science",
                         period: "In Progress",
-                        description: "Master Degree in Computer Science. Subfields of study: Software Engineering, Mobile Applications",
+                        description: "Master Degree in Computer Science. Title: An Empirical Study on the Usage of the Kotlin Programming Language for Android",
                         groups: [{
                             name: "Software Productive Group",
                             acronym: "SPG",
@@ -53,6 +53,14 @@
                         period: "October 2012",
                         description: "18 weeks of full-time Language Course, completing a 24 weeks exchange"
                     },
+                    management30: {
+                        url : "https://management30.com",
+                        imgUrl : "images/management30.jpg",
+                        name: "Management 3.0",
+                        role: "The Next Generation of Management",
+                        period: "December 2018",
+                        description: "Management 3.0 is an ever-changing collection of games, tools, and practices to help any worker to manage the organization. It is a way of looking at work systems with a strong focus on people."
+                    },
                     scrum_certificate: {
                         imgUrl : "images/logocsm.png",
                         name: "Certified ScrumMaster",
@@ -80,7 +88,7 @@
                         name: "Liferay Inc.",
                         role: "Lead Mobile Software Engineer",
                         period: "March 2017 - Current",
-                        description: "Lead Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others."
+                        description: "Lead Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others. I am also responsible for managing the mobile team in Latin America using agile practices and some concepts of Management 3.0."
                     },
                     facilit: {
                         url : "http://www.facilit.com.br",
@@ -91,8 +99,7 @@
                         description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
                     },
                     skills_plp: "Programming Languages and Platforms:",
-                    skills_plp1: "Java EE / Android, Kotlin, Javascript, C#, Swift (Good or better);",
-                    skills_plp2: "Objective C, SQL, NCL, Lua (Regular);",
+                    skills_plp1: "Java (EE / Android), Kotlin, C#, Javascript, Swift, Objective-C",
                     skills_experience: "Experience in:",
                     skills_experience_array: [{
                         text: "Mobile Development: Android, iOS, Windows Phone/8;"
@@ -103,9 +110,7 @@
                     }, {
                         text: "IDE: Eclipse, Android Studio, xCode, IntelliJ IDEA, Visual Studio, NetBeans;"
                     }, {
-                        text: "Frameworks, API’s, General Applications: Realm, AngularJS, jQuery, NodeJs, ExpressJS, Struts, Spring, Liferay Portal, Ant, Maven, Gradle;"
-                    }, {
-                        text: "Continuous Integration: Jenkinds, Travis CI;"
+                        text: "Continuous Integration: Jenkins, Travis CI;"
                     }, {
                         text: "CVS: SVN, Git"
                     }],
@@ -196,6 +201,24 @@
                     last_updated: "Last updated at 04/15/2018",
                     portfolios: [
                     {
+                        closed: true,
+                        title: "Liferay Screens",
+                        description: "Liferay Screens is a collection of fully native mobile components, using all the power of your Liferay platform as an enterprise grade mobile back end.",
+                        imgUrl: "images/portfolio/liferay-screens.png",
+                        modalImgUrl: "images/portfolio/modals/liferay-screens.png",
+                        url: "https://github.com/liferay/liferay-screens",
+                        tags: [{
+                            name: "kotlin"
+                        }, {
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }, {
+                            name: "swift"
+                        }, {
+                            name: "ios"
+                        }]
+                    },{
                         closed: true,
                         title: "WeDeploy Android SDK",
                         description: "WeDeploy helps you build from simple to complex applications. We give you predefined services that can speed up your development process.",
@@ -386,6 +409,11 @@
                         author: "João Neves (Senior iOS Developer at Salesforce)",
                         info: "December 20, 2016 from Linkedin — João worked directly with Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/joao_neves.jpg"
+                    }, {
+                        testimonial: "Was a pleasure to work with Victor, He is a smart, proactive and dedicated to everything. We worked together in some mobile apps at Liferay. We had effort in quality using top technologies like Swift, Kotlin, Reactive programming, TDD, CI, CD. I believe he will have a brilliant career and will help his coworkers to grown up like him.",
+                        author: "Allan Melo (iOS Software Developer at enjoei.com)",
+                        info: "January 22, 2019 from Linkedin - Allan worked with Victor Laerte in the same group",
+                        imgUrl: "images/allan_melo.jpeg"
                     }],
                     academicPubArray: [{
                         category: "Scientifc Papers",
