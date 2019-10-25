@@ -11,7 +11,7 @@
                     title: "Victor Laerte de Oliveira",
                     subtitle: "MSc Student - CIn UFPE, Mobile Software Engineer - Liferay Inc.",
                     aboutMeEducation: "MSc Student in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
-                    aboutMeWork: "At the same time with the researcher occupation, I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
+                    aboutMeWork: "I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
                     ufpe: {
@@ -19,7 +19,7 @@
                         imgUrl : "images/logoufpe.jpg",
                         name: "Federal University of Pernambuco (UFPE)",
                         role: "MSc in Computer Science",
-                        period: "In Progress",
+                        period: "August 2019",
                         description: "Master Degree in Computer Science. Title: An Empirical Study on the Usage of the Kotlin Programming Language for Android",
                         groups: [{
                             name: "Software Productive Group",
@@ -87,7 +87,7 @@
                         imgUrl : "images/liferay.png",
                         name: "Liferay Inc.",
                         role: "Lead Mobile Software Engineer",
-                        period: "March 2017 - Current",
+                        period: "March 2017 - June 2019",
                         description: "Lead Mobile Software Engineer. Working building apps in different platforms (Android, iOS) with many technologies like Java, Kotlin, Swift, Obj-C, C# and others. I am also responsible for managing the mobile team in Latin America using agile practices and some concepts of Management 3.0."
                     },
                     facilit: {
@@ -97,6 +97,21 @@
                         role: "Software Developer",
                         period: "May 2013 - March 2017",
                         description: "Software Developer of Java Web and mobile applications (Android, Windows 8/Phone), having used C#, Javascript and many other technologies in different projects, and also performing the role of Scrum Master."
+                    },
+                    tempest: {
+                        url : "https://www.tempest.com.br/",
+                        imgUrl : "images/logotempest.png",
+                        name: "Tempest Security Intelligence",
+                        role: "Lead Mobile Software Engineer",
+                        period: "June 2017 - Current",
+                        description: "Lead Mobile Software Engineer. Working building SDKs and apps for Android and iOS focusing on security. Also responsible for managing the mobile team using agile practices.",
+                        groups: [{
+                            name: "AllowMe Intelligence",
+                            acronym: "by Tempest",
+                            url: "https://www.tempest.com.br/allow-me/index.html",
+                            imageUrl: "images/logoallowme.png",
+                            description: "AllowMe helps other businesses prevent and mitigate risks from their customers."
+                        }]
                     },
                     skills_plp: "Programming Languages and Platforms:",
                     skills_plp1: "Java (EE / Android), Kotlin, C#, Javascript, Swift, Objective-C",
@@ -256,7 +271,7 @@
                         description: "An extension for Sublime Text 2 and 3! It allows you to insert the best Dumbest Lorem Ipsum in the editor via menu items or keyboard shortcuts.",
                         imgUrl: "images/portfolio/trump.png",
                         modalImgUrl: "images/portfolio/modals/trump.png",
-                        url: "http://www.trumpipsum.org/",
+                        url: "http://www.victorlaerte.com/dumbest-ipsum/",
                         tags: [{
                             name: "entertainment"
                         }, {
