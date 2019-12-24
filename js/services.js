@@ -9,8 +9,8 @@
                 var strings = {
                     name: "Victor Laerte de Oliveira",
                     title: "Victor Laerte de Oliveira",
-                    subtitle: "MSc Student - CIn UFPE, Mobile Software Engineer - Liferay Inc.",
-                    aboutMeEducation: "MSc Student in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
+                    subtitle: "MSc in Computer Science - CIn UFPE, Mobile Software Engineer - Tempest Security Intelligence.",
+                    aboutMeEducation: "MSc in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
                     aboutMeWork: "I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
