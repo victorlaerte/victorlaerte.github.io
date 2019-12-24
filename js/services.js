@@ -103,7 +103,7 @@
                         imgUrl : "images/logotempest.png",
                         name: "Tempest Security Intelligence",
                         role: "Lead Mobile Software Engineer",
-                        period: "June 2017 - Current",
+                        period: "June 2019 - Current",
                         description: "Lead Mobile Software Engineer. Working building SDKs and apps for Android and iOS focusing on security. Also responsible for managing the mobile team using agile practices.",
                         groups: [{
                             name: "AllowMe Intelligence",
