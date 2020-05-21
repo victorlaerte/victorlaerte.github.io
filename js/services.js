@@ -132,40 +132,40 @@
                     skills_and_recommendations: "Skills and Recommendations",
                     skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
                     linkedin_skills: [{
-                        votes: 32,
+                        votes: 35,
                         skill: "JavaScript"
                     }, {
-                        votes: 30,
+                        votes: 33,
                         skill: "Scrum"
                     }, {
-                        votes: 29,
+                        votes: 31,
                         skill: "Java"
+                    }, {
+                        votes: 29,
+                        skill: "Android"
                     }, {
                         votes: 28,
                         skill: "SQL"
                     }, {
-                        votes: 27,
-                        skill: "Android"
-                    }, {
-                        votes: 23,
+                        votes: 22,
                         skill: "JQuery"
                     }, {
-                        votes: 22,
+                        votes: 21,
                         skill: "Java software development"
                     }, {
-                        votes: 20,
+                        votes: 19,
                         skill: "C#"
                     }, {
-                        votes: 20,
+                        votes: 19,
                         skill: "Java Enterprise Edition"
                     }, {
                         votes: 19,
                         skill: "Eclipse"
                     }, {
-                        votes: 14,
+                        votes: 13,
                         skill: "Subversion"
                     }, {
-                        votes: 13,
+                        votes: 12,
                         skill: "Apache Tomcat"
                     }, {
                         votes: 12,
@@ -174,48 +174,59 @@
                         votes: 12,
                         skill: "Tomcat"
                     }, {
-                        votes: 11,
-                        skill: "Servidor de Aplicação JBoss"
-                    }, {
-                        votes: 10,
-                        skill: "Windows software development"
-                    }, {
                         votes: 10,
                         skill: "JBoss Application Server"
                     }, {
-                        votes: 10,
-                        skill: "Microsoft Visual Studio"
+                        votes: 9,
+                        skill: "Windows software development"
                     }, {
                         votes: 9,
+                        skill: "Microsoft Visual Studio"
+                    }, {
+                        votes: 8,
                         skill: "NetBeans"
                     }, {
-                        votes: 8,
+                        votes: 7,
                         skill: "Git"
                     }, {
-                        votes: 8,
-                        skill: "Digital TV"
-                    }, {
-                        votes: 7,
+                        votes: 6,
                         skill: "AngularJS"
                     }, {
-                        votes: 7,
+                        votes: 6,
                         skill: "Lua"
                     }, {
-                        votes: 5,
-                        skill: "Visual Studio"
-                    }, {
-                        votes: 4,
+                        votes: 3,
                         skill: "GitHub"
                     }, {
-                        votes: 4,
+                        votes: 3,
                         skill: "Node.js"
                     }, {
                         votes: 2,
                         skill: "MongoDB"
                     }],
-                    last_updated: "Last updated at 04/15/2018",
+                    last_updated: "Last updated at 05/21/2020",
                     portfolios: [
                     {
+                        closed: true,
+                        title: "AllowMe",
+                        description: "AllowMe helps your company to prevent fraud and mitigate risks throughout your customers' digital journey. Incorporated into websites and mobile apps, AllowMe also helps to improve your customer's experience when using your company's digital platforms, reducing friction in the onboarding process and decreasing the cost of acquiring new customers.",
+                        imgUrl: "images/portfolio/allowMe.png",
+                        modalImgUrl: "images/portfolio/modals/allowMe.png",
+                        url: "https://allowme.cloud/",
+                        tags: [{
+                            name: "kotlin"
+                        }, {
+                            name: "java"
+                        }, {
+                            name: "android"
+                        }, {
+                            name: "swift"
+                        }, {
+                            name: "ios"
+                        }, {
+                            name: "objective-c"
+                        }]
+                    },{
                         closed: true,
                         title: "Liferay Screens",
                         description: "Liferay Screens is a collection of fully native mobile components, using all the power of your Liferay platform as an enterprise grade mobile back end.",
@@ -396,45 +407,50 @@
                     }],
                     testimonials: [{
                         testimonial: "Victor is smart, proactive has is a multitasker. Technically versatile, and also a team player. I'm sure he would be a great asset to any company.",
-                        author: "Carlos Brandão Jr (Scrum Master at Liferay, Inc)",
+                        author: "Carlos Brandão Jr (Senior Project Manager/Agile Coach at Liferay, Inc)",
                         info: "October 20, 2016 from Linkedin — Carlos supervised Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/carlos_brandao.jpg"
                     }, {
                         testimonial: "Victor is one of the best problem-solvers I have ever worked with. During the time I've spent with him, he demonstrated expertise in his area and makes great decisions as Scrum Master, especially under pressure. I would gladly certify his skills in Software Development (Web and Mobile apps) from the many projects we've worked together.",
-                        author: "Maxwell Francisco (Web Developer at Urban Insight)",
+                        author: "Maxwell Francisco (Software Engineer Consultant at Dellent Consulting)",
                         info: "October 18, 2016 from Linkedin — Maxwell worked directly with Victor Laerte at Facilit Technology",
                         imgUrl: "images/maxwell_francisco.jpg"
                     }, {
                         testimonial: "Victor is a great, experienced workmate and friend, talented and easy to work with. He has great technical skills and always willing to learn new technologies and practices (both academical and professional). He's willing to help the workmates and not afraid to work on challenging projects. He also gave great contributions to our internal processes in the company, such as adopt GitHub, Jenkins and other tools, which demonstrates interest to the company and its team, proactivity, out-of-the-box thinking and updated with best practices. He sure was a great addition to our team and will be anywhere he works. ",
-                        author: "Everson Veríssimo (Developer at Facilit Tecnologia)",
+                        author: "Everson Veríssimo (Backend Software Engineer at Liferay)",
                         info: "October 17, 2016 from Linkedin — Everson worked directly with Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/everson_verissimo.jpg"
                     }, {
                         testimonial: "We worked together by few years and I can say that Victor is one of the best developers who have had the opportunity to collaborate. Proactive, studious, committed to constantly improve their skills and always with strong and relevant opinions, whether or not on technical issues. As Scrum Master, showed one of his most admirable traits: being a good leader, fair and always enhancing the team work, resolving conflicts and ensuring delivering value to our product. Certainly one of the IT professionals that every company seeks and who would like to have another opportunity to work. I can't see a different future for Victor as well as great success.",
-                        author: "Jordana Morais (Frontend Consultant at Liferay, Inc)",
+                        author: "Jordana Morais (UX Consultant & Tech Lead at Liferay, Inc)",
                         info: "September 27, 2016 from Linkedin — Jordana worked directly with Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/jordana_morais.jpg"
                     }, {
                         testimonial: "Victor is a very talented and disciplined Software Engineer. Always working with a pro-active attitude he is able to help his team achieving their goals. He is definitely a good resource for any IT company as he learns fast and has compromise and ownership to his work. His skills range from an excellent sense of team work to technical skills such as widely used programming languages: Java, JavaScript and C#.",
-                        author: "Thiago Andrade (Web Development Engineer at Amazon)",
+                        author: "Thiago Andrade (Software Development Engineer II at Amazon)",
                         info: "December 27, 2016 from Linkedin — Thiago supervised Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/thiago_andrade.jpg"
                     }, {
                         testimonial: "I had the luck to work with Victor side by side, we both worked on Facilit's mobile application. It always amazed me the speed which Victor was able to deliver features, while constantly keeping up super code quality. Perhaps one of the most valuable traits of good developers is one's ability to turn complexity into simplicity, and that's why Victor was able to always deliver so rapidly, he repeatedly figured out the most efficient way to accomplish his goals. I also really admired Victor's care to user interfaces, they were always so responsive and fluid, resulting in a great user experience.",
-                        author: "João Neves (Senior iOS Developer at Salesforce)",
+                        author: "João Neves (Principal Software Engineer at Salesforce)",
                         info: "December 20, 2016 from Linkedin — João worked directly with Victor Laerte at Facilit Tecnologia",
                         imgUrl: "images/joao_neves.jpg"
                     }, {
                         testimonial: "Was a pleasure to work with Victor, He is a smart, proactive and dedicated to everything. We worked together in some mobile apps at Liferay. We had effort in quality using top technologies like Swift, Kotlin, Reactive programming, TDD, CI, CD. I believe he will have a brilliant career and will help his coworkers to grown up like him.",
-                        author: "Allan Melo (iOS Software Developer at enjoei.com)",
+                        author: "Allan Melo (Senior iOS Developer at PicPay)",
                         info: "January 22, 2019 from Linkedin - Allan worked with Victor Laerte in the same group",
                         imgUrl: "images/allan_melo.jpeg"
+                    }, {
+                        testimonial: "In the two companies that I worked directly with Victor, he has always shown to be a professional who has seriousness in what he does and always seeks to do the right thing and accuse the wrong things that are happening. For me, he will always be a great friend that I can trust and he can count on me for everything.",
+                        author: "Adriano Interaminense (Front-End Engineer at Liferay, Inc)",
+                        info: "June 27, 2019 from Linkedin - Adriano worked with Victor Laerte in the same group",
+                        imgUrl: "images/adriano.jpeg"
                     }],
                     academicPubArray: [{
                         category: "Scientifc Papers",
                         items: [{
                             language: "en-US",
-                            title: "(PRE-PRINT) On the Adoption of Kotlin on Android Development: A Triangulation Study",
+                            title: "On the Adoption of Kotlin on Android Development: A Triangulation Study",
                             link: "doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf",
                             yearAndLocation: "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), February 18-21, 2020, London, ON, Canada"
                         },
@@ -445,7 +461,15 @@
                             yearAndLocation: "11th International Workshop on Cooperative and Human Aspects of Software, May 27, 2018, Gothenburg, Sweden"
                         }],
                     }, {
-                        category: "Bachelor's Thesis",
+                        category: "Master's Thesis",
+                        items: [{
+                            language: "en-US",
+                            title: "An Empirical Study on the Usage of the Kotlin Programming Language for Android Development",
+                            link: "https://repositorio.ufpe.br/bitstream/123456789/36041/1/DISSERTA%C3%87%C3%83O%20Victor%20Laerte%20de%20Oliveira.pdf",
+                            yearAndLocation: "2019 at Federal University of Pernambuco"
+                        }],
+                    }, {
+                        category: "Bachelor's Final Work",
                         items: [{
                             language: "pt-BR",
                             title: "TV Digital no Brasil: Uma Metodologia Prática para o Desenvolvimento de Aplicações Interativas Utilizando Ginga-NCL",
