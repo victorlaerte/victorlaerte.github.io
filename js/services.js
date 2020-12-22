@@ -457,7 +457,7 @@
                         {
                             language: "en-US",
                             title: "An Initial Understanding of Task Interdependence in Software Engineering: A Case Study",
-                            link: "http://www.victorlaerte.com/task-interdependence/",
+                            link: "doc/task-interdependence.pdf",
                             yearAndLocation: "11th International Workshop on Cooperative and Human Aspects of Software, May 27, 2018, Gothenburg, Sweden"
                         }],
                     }, {
