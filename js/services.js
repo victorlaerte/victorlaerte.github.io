@@ -125,7 +125,7 @@
                             acronym: " - One Experian Recognition FY25 - H1",
                             url: "https://www.linkedin.com/posts/victorlaerte_essa-semana-foi-especial-tive-a-honra-de-activity-7270918066220277760-48N6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAfzplcByoHkCUFnRbEwxUmbZNdNPYNYc2s",
                             imageUrl: "images/recognition.jpeg",
-                            description: ""
+                            description: "Global Internal Recognition Award Winner for Outstanding Work in the First Half of Fiscal Year 2025"
                         }]
                     },
                     skills_plp: "Programming Languages and Platforms:",
