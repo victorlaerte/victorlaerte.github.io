@@ -64,10 +64,10 @@
                 <li ng-class="currentSection=='skills' ? 'current' : ''" ng-click="currentSection='skills'">
                     <a class="smoothscroll" href="#skills">Skills</a>
                 </li>
-
+<!-- 
                 <li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
                     <a class="smoothscroll" href="#portfolio">Works</a>
-                </li>
+                </li> -->
 
                 <li ng-class="currentSection=='publications' ? 'current' : ''" ng-click="currentSection='publications'">
                     <a class="smoothscroll" href="#publications">Publications</a>
@@ -309,21 +309,13 @@
 
     <!-- Portfolio Section -->
 
-    <section id="portfolio">
-
+    <!-- <section id="portfolio">
         <div class="row">
-
             <div class="twelve columns collapsed">
-
                 <h1>Check Out Some of My Works.</h1>
-
-                <!-- portfolio-wrapper -->
                 <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
                     <div class="columns portfolio-item" ng-repeat="portfolio in portfolios">
-
                         <div class="item-wrap">
-
                             <a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{::portfolio.title}}">
                                 <img alt="" ng-src="{{::portfolio.imgUrl}}">
                                 <div class="overlay">
@@ -334,45 +326,26 @@
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
                             </a>
-
                         </div>
-
                     </div>
-                    <!-- item end -->
-
                 </div>
-                <!-- portfolio-wrapper end -->
-
             </div>
-            <!-- twelve columns end -->
-
         </div>
-        <!-- row End -->
-
-        <!-- Modal Popup -->
-
         <div id="modalArea" class="top-gap">
-
             <div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in portfolios">
-
                 <img class="scale-with-grid" ng-src="{{::portfolio.modalImgUrl}}" alt="" />
-
                 <div class="description-box">
                     <h4>{{::portfolio.title}}</h4>
                     <p>{{::portfolio.description}}</p>
                     <span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{::tag.name}} </span></span>
                 </div>
-
                 <div class="link-box">
                     <a href="{{::portfolio.url}}" target="_blank">Details</a>
                     <a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
                 </div>
-
             </div>
-            <!-- modal End -->
         </div>
-
-    </section>
+    </section> -->
     <!-- Portfolio Section End-->
 
     <!-- Kick Ass Quote Section -->
