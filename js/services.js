@@ -9,9 +9,9 @@
                 var strings = {
                     name: "Victor Laerte de Oliveira",
                     title: "Victor Laerte de Oliveira",
-                    subtitle: "MSc in Computer Science - CIn UFPE, Mobile Software Engineer - Tempest Security Intelligence.",
+                    subtitle: "Software Engineering Manager - MSc in Computer Science, Software Engineer - Searasa Experian.",
                     aboutMeEducation: "MSc in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
-                    aboutMeWork: "I've been working as developer since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
+                    aboutMeWork: "I started working as a software developer in 2013, exploring various technologies and platforms throughout my career. Over time, I developed strong leadership skills and now play a key role in guiding both teams and business strategy.",
                     address: "Recife, Pernambuco - Brazil",
                     email: "victorlaertedoliveira@gmail.com",
                     ufpe: {
@@ -103,7 +103,7 @@
                         imgUrl : "images/logotempest.png",
                         name: "Tempest Security Intelligence",
                         role: "Lead Mobile Software Engineer",
-                        period: "June 2019 - Current",
+                        period: "June 2019 - March 2024",
                         description: "Lead Mobile Software Engineer. Working building SDKs and apps for Android and iOS focusing on security. Also responsible for managing the mobile team using agile practices.",
                         groups: [{
                             name: "AllowMe Intelligence",
@@ -111,6 +111,20 @@
                             url: "https://www.tempest.com.br/allow-me/index.html",
                             imageUrl: "images/logoallowme.png",
                             description: "AllowMe helps other businesses prevent and mitigate risks from their customers."
+                        }]
+                    },
+                    serasa_experian: {
+                        url : "https://www.serasaexperian.com.br/",
+                        imgUrl : "images/serasa.png",
+                        name: "Serasa Experian",
+                        role: "Software Engineering Manager",
+                        period: "April 2024 - Current",
+                        description: "I lead a team dedicated to developing fraud prevention solutions, encompassing multiple areas such as native SDKs (Android, iOS, Web) and backend services. My role goes beyond managing the team; I actively contribute to shaping the strategic direction of the area, ensuring our solutions remain effective, scalable, and aligned with business needs. This involves collaborating with different stakeholders, refining our technology stack, and continuously improving our approach to fraud detection and prevention.",
+                        groups: [{
+                            name: "ID&F - Identity and Fraud",
+                            acronym: "",
+                            url: "https://www.serasaexperian.com.br/solucoes/antifraude/#info-tabs-item-bdbed13ecf-tab",
+                            description: "Security for business without impacting customer experience"
                         }]
                     },
                     skills_plp: "Programming Languages and Platforms:",
