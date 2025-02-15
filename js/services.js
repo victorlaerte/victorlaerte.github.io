@@ -9,7 +9,7 @@
                 var strings = {
                     name: "Victor Laerte de Oliveira",
                     title: "Victor Laerte de Oliveira",
-                    subtitle: "Software Engineering Manager - MSc in Computer Science, Software Engineer - Searasa Experian.",
+                    subtitle: "Software Engineering Manager - MSc in Computer Science - Searasa Experian.",
                     aboutMeEducation: "MSc in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
                     aboutMeWork: "I started working as a software developer in 2013, exploring various technologies and platforms throughout my career. Over time, I developed strong leadership skills and now play a key role in guiding both teams and business strategy.",
                     address: "Recife, Pernambuco - Brazil",
@@ -119,13 +119,7 @@
                         name: "Serasa Experian",
                         role: "Software Engineering Manager",
                         period: "April 2024 - Current",
-                        description: "I lead a team dedicated to developing fraud prevention solutions, encompassing multiple areas such as native SDKs (Android, iOS, Web) and backend services. My role goes beyond managing the team; I actively contribute to shaping the strategic direction of the area, ensuring our solutions remain effective, scalable, and aligned with business needs. This involves collaborating with different stakeholders, refining our technology stack, and continuously improving our approach to fraud detection and prevention.",
-                        groups: [{
-                            name: "ID&F - Identity and Fraud",
-                            acronym: "",
-                            url: "https://www.serasaexperian.com.br/solucoes/antifraude/#info-tabs-item-bdbed13ecf-tab",
-                            description: "Security for business without impacting customer experience"
-                        }]
+                        description: "I lead a team dedicated to developing fraud prevention solutions, encompassing multiple areas such as native SDKs (Android, iOS, Web) and backend services. My role goes beyond managing the team; I actively contribute to shaping the strategic direction of the area, ensuring our solutions remain effective, scalable, and aligned with business needs. This involves collaborating with different stakeholders, refining our technology stack, and continuously improving our approach to fraud detection and prevention."
                     },
                     skills_plp: "Programming Languages and Platforms:",
                     skills_plp1: "Java (EE / Android), Kotlin, C#, Javascript, Swift, Objective-C",
@@ -146,16 +140,16 @@
                     skills_and_recommendations: "Skills and Recommendations",
                     skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
                     linkedin_skills: [{
-                        votes: 35,
-                        skill: "JavaScript"
-                    }, {
                         votes: 33,
                         skill: "Scrum"
+                    },{
+                        votes: 35,
+                        skill: "JavaScript"
                     }, {
                         votes: 31,
                         skill: "Java"
                     }, {
-                        votes: 29,
+                        votes: 28,
                         skill: "Android"
                     }, {
                         votes: 28,
@@ -172,53 +166,8 @@
                     }, {
                         votes: 19,
                         skill: "Java Enterprise Edition"
-                    }, {
-                        votes: 19,
-                        skill: "Eclipse"
-                    }, {
-                        votes: 13,
-                        skill: "Subversion"
-                    }, {
-                        votes: 12,
-                        skill: "Apache Tomcat"
-                    }, {
-                        votes: 12,
-                        skill: "Windows Phone"
-                    }, {
-                        votes: 12,
-                        skill: "Tomcat"
-                    }, {
-                        votes: 10,
-                        skill: "JBoss Application Server"
-                    }, {
-                        votes: 9,
-                        skill: "Windows software development"
-                    }, {
-                        votes: 9,
-                        skill: "Microsoft Visual Studio"
-                    }, {
-                        votes: 8,
-                        skill: "NetBeans"
-                    }, {
-                        votes: 7,
-                        skill: "Git"
-                    }, {
-                        votes: 6,
-                        skill: "AngularJS"
-                    }, {
-                        votes: 6,
-                        skill: "Lua"
-                    }, {
-                        votes: 3,
-                        skill: "GitHub"
-                    }, {
-                        votes: 3,
-                        skill: "Node.js"
-                    }, {
-                        votes: 2,
-                        skill: "MongoDB"
                     }],
-                    last_updated: "Last updated at 05/21/2020",
+                    last_updated: "Last updated at 02/14/2025",
                     portfolios: [
                     {
                         closed: true,
