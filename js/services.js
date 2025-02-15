@@ -119,7 +119,14 @@
                         name: "Serasa Experian",
                         role: "Software Engineering Manager",
                         period: "April 2024 - Current",
-                        description: "I lead a team dedicated to developing fraud prevention solutions, encompassing multiple areas such as native SDKs (Android, iOS, Web) and backend services. My role goes beyond managing the team; I actively contribute to shaping the strategic direction of the area, ensuring our solutions remain effective, scalable, and aligned with business needs. This involves collaborating with different stakeholders, refining our technology stack, and continuously improving our approach to fraud detection and prevention."
+                        description: "I lead a team dedicated to developing fraud prevention solutions, encompassing multiple areas such as native SDKs (Android, iOS, Web) and backend services. My role goes beyond managing the team; I actively contribute to shaping the strategic direction of the area, ensuring our solutions remain effective, scalable, and aligned with business needs. This involves collaborating with different stakeholders, refining our technology stack, and continuously improving our approach to fraud detection and prevention.",
+                        groups: [{
+                            name: "Recognition Award Winner",
+                            acronym: " - One Experian Recognition FY25 - H1",
+                            url: "https://www.linkedin.com/posts/victorlaerte_essa-semana-foi-especial-tive-a-honra-de-activity-7270918066220277760-48N6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAfzplcByoHkCUFnRbEwxUmbZNdNPYNYc2s",
+                            imageUrl: "images/recognition.jpeg",
+                            description: ""
+                        }]
                     },
                     skills_plp: "Programming Languages and Platforms:",
                     skills_plp1: "Java (EE / Android), Kotlin, C#, Javascript, Swift, Objective-C",
